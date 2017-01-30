@@ -1,0 +1,83 @@
+Contents to be made:
+(Subject to Change)
+English grammer and any other else.
+
+
+What is network??
+Network - Interconnecting devices that communicate with each other
+(to share resources)
+		- also called networks of networks
+		- characterized by different nodes
+Two types (correct me if im wrong)
+	*Hardware
+		E.g. Computer, laptop, desktop, routers,switch,hub
+		-interconnection technology
+			o Wired - fibre, UDB TCP
+			o Wireless - infrared (remote control), bluetooth
+
+	*Software
+		-Difference Protocols
+			o Follow certain rules
+			o E.g. Computers cannot send their transmission at the same time that is why protocols exist to fix the flow
+					- Serial - a bit per transmission
+			o Put source and its destination
+					- where to give and to receive
+			o Sending Big files
+					- Chopping them into smaller pieces which is the work of protocols
+			o Packets - smaller pieces of data from a very big data that is being send / recieved.(chopped data)
+	IPv4 - 32 bit -> 4 bytes
+	IPv6 - 64 bit -> 8 bytes
+
+History
+1969 DARPA
+-pocket switching
+- score and forward
+4 computers connected remotely - ARPANET
+
+1972 - E-mail
+
+
+WWW - Collection of webpages  - documents to be connected to other documents by hyperlinks
+
+ * Application
+	 o WAIS(Wide Area Information Servers)
+		- before the WWW was developed
+		-database, query
+		- linking document to a central database and not linking document to other document
+
+	o Gopher
+		- Index <-> subindex
+		- "Hierarchies"
+		- borrowing from doc to doc that is why it is called Gopher
+
+	o Usenet
+		- bulletin board online
+		- Modern correspondence are: reddit, stackoverflow
+
+1989 - WWW was created
+	o Sir Tim Berners-Lee
+		- CERN
+		- Created: 	HTTP
+			   		HTML
+			   		URL
+			   		1st web server
+			   		1st web client or web browser
+
+	o links document to document related to each other by hypertext
+	o HTML - technology used to connect to each other
+	o URL - to differentiate webpages from each other
+		  - address, specify the location and other hierarchal information
+	o Web server - a program that hosts WWW
+	o Web client - application that would request the webserver
+	o HTTP - standard language
+	o Motivation for creation of WWW is for the use of researchers and scientist
+	o WWW before was only textual
+
+* Today
+ Sir Tim Berners Lee
+ 	-W3C
+ 		-Overseeing the evolution of the web
+ 		-which is the semantics (meaning )
+ 		o Semantic Searching - asking questions on the search engine would now be meaningful or it would tell you something.
+
+

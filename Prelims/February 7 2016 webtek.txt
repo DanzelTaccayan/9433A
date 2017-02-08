@@ -1,0 +1,32 @@
+Request URI- url of resource being requested
+HTTP Protocol Version- cilent and server must agree on protocol version
+Message Headers- fieldname: value
+	       - terminated by empty line
+HTTP Message Headers
+	General Header Fields-Client and Server
+	Request Header Fields-Client Only
+	Response Header Fields-Server Only
+	Entity Header Fields
+
+HTTP 1.0- No required Header Field
+     1.1- atleast message header(HOST) 
+Message Body is Optional AKA PAYLOAD
+HTTP response message- starts line 1 CRLF- terminated line consisting of three space separated values
+	-HTTP protocol version
+	-status code-explicit numeric value
+	-reason- desriptive status code
+		status code:
+			informational-1xx
+			success-2xx
+			redirection-3xx		
+			client error-4xx	
+			server error-5xx
+Message Headers- general requests and entity headers
+Standard Methods
+	Get- retreive resource
+	   - most commonly used HTTP method
+	Head- same as get but body of response is not sent
+link out- broken line
+post- submit data to be processed 
+
+404 NOT FOUND 404 is status code NOT FOUND is reason phrase

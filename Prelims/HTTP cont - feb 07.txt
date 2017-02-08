@@ -1,0 +1,41 @@
+HTTP continuation
+
+Standard methods
+Extension methods - defined capability for protocol
+
+Request URI - url of the resource requested.
+
+Message headers (general, request, and/or entity headers)
+example:
+	fieldname: value
+	useragent:
+	server:
+
+HTTP 1.1 requires atleast the host request header to be provided.
+
+Header fields:
+General header fields - both client and server appears to request and response.
+Request - applicable to request; client side
+Response - applicable to response; server side
+Entity - payload of the message
+
+Empty line(CRLF)
+Message body a.k.a payload
+
+SC - server configuration
+
+HTTP response message
+	Status line - (CRLF: terminated line consisting of three space-separated)
+		Informational (1xx) -  status codes starts with 1.
+		Success (2xx) - successful
+		Redirection (3xx) - redirection
+		Client (4xx) - error on the client side
+		Server (5xx) - request wasn't handled properly; server's fault
+	HTTP protocol version
+	Status code - explicit numeric value; SC to SC
+	Reason phrase
+
+*Each request/response generated passed through headers.
+
+FIDDLER
+	- the blank line terminates ther request

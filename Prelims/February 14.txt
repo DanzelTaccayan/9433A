@@ -1,0 +1,20 @@
+Different Response Header Fields
+
+Accept
+Accept-charset
+Accept-encoding
+accept-language
+authorization
+expect
+from
+if-range
+if-unmodified-since
+TE
+referer
+user-agent
+if-none-match
+host
+if-match
+max-forwards
+proxy-authorization
+range

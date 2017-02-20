@@ -1,0 +1,48 @@
+Client-Server Architecture
+*FTP
+*Peer to Peer
+*HTTP
+*Games
+
+*Clients a.k.a user agents
+- any application that communicates with an HTTP server
+using the HTTP protocol
+
+Web Crawlers/Spiders
+	-used for search engine, to show related keywords when a client searches for something.
+	-Google bot
+
+*Servers - Origin, Proxy, Tunnel
+	Origin Server - Physically there
+				  - Machine with application(typically a web server)
+				  - Waits for requests in port 80
+				  - when a client connects to a server "Its never a direct connection", it can be the case that a user is connected to a proxy or gateway before reaching the origin server.
+	Tunnel - Blind Relay between two points
+			- Encryption Tunnel
+			-Forwards the communication without knowing the data
+	"Any server using HTTP is an HTTP server"
+	"A server can also be a client"
+			- E.g. A client requests from a proxy server , the proxy server(The server which would now become a client) will then go and requests from a gateway.
+	"Server doesnt initiate request but with the PULL protocol in HTTP 2.0 it is possible"
+
+	HTTP 2.0 - "PUSH protocol"
+	         - now the server can volunteer/initiate requests
+	         			E.g. Facebook's news feed 
+	         - Polling: check with the server at time intervals
+	                  : works with pull but not efficient because
+	      					- Waste of bandwidth and process cycles
+	      					- So that is why push was made
+Since HTTP is a stateless protocol, server doesnt keep info about you
+it is possible to keep track of you actions in some webpages(E.g. Shopping sites)
+because of server side scripting technologies.
+
+Cache - Stores certain things that has already been accessed
+	  - retrieve everything then render
+	  - its foolish to refetch the same content when accessing the same website on different webpages so cache is their to make access fast.
+
+MIME Type - Web uses MIME to identify what type of media it is so that the other end could know how to process it.
+
+Content Negotiation
+ - Servers should know how to handle files that are being sent
+ 	e.g. A compressed file should be decompressable
+ - Server- Client must agree

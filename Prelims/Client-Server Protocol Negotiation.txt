@@ -1,0 +1,45 @@
+Client Server Protocol Negotiations
+	* Non-Persistent Connection:
+		Only available on HTTP 1.0 or HTTP 0.9
+		follows 4 steps:
+		1. Connection
+		2. Request
+		3. Response
+		4. Disconnection
+		- A cycle because in requesting you need to do the 4 steps above, the cycle must be first completed before requesting another request.
+		- Solution to Non-Persisten Connection are Persistent Connection
+
+	* Persisten Connection:
+		Request - sends an info about your request
+		- available in HTTP 1.1
+		- the connection is open for a brief of time
+
+		Request Pipelining
+		 - First and second request can be sent one after another you dont need to wait until it is finished not like Non Persistent connections.
+
+*HTTP Addressing
+ URI: consists of a URN and a URL
+ 	URN: Unique name for some resource
+ 	URL: Where the resource is(digital resource)
+ 		-parts: 
+ 			*Scheme (http or https)
+ 			  >file - local resource
+ 			  >http - web resource
+ 			*User info or authentication ccred
+ 			  >authority -deprecated
+ 			*Host - domain name of IP address: resolved to an IP address using DNS of the server where the resource resides
+ 			*Port Number
+ 			*Path to the resource
+ 			   - logical path sometimes it is not good to put the physical path of your resource
+ 			   - may be static(served as is) or dynamic(usually a script) resource
+ 			   - query: starts with a question mark
+ 			          : typically provided as key = value pairs with ampersand(&) separators between key/value pairs.
+ 			   - Special characters are URL encoded transformed into something else
+ 			   			E.g. whitespaces =  +
+ 			   			     / = its ASCI Code
+ 			   - Some are converted into ASCII codes
+ 			   - Fragment Identifier = starts with a # followed by a key value
+ 			   						 = typically used on browser end.
+ 			   - Schemes can be omitted with relative URL
+ 			   		*Absolute URL - starts with a scheme(Full address)
+ 			   		*Relative URL - relative to some place

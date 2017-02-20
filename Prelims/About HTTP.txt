@@ -1,0 +1,28 @@
+HTTP - standard way of communication to access resources or the WWW
+Standardization: W3C & IETF
+Original HTTP as defined in 1991
+	-Runs on top of TCP/IP
+	-higher layer protocol that takes advantage of TCP/IP
+			-E.g. Packet Switching
+	- is a stateless communication protocol: doesn't remember clients just does the job and forgets everything.
+	-Port Number: A number from 0 - 65536
+				: application uses this to uniquely identify each other
+				:e.g. If App W on IPA wants to send a message on App X on IPC
+						on the same hand 
+						App C on IPA wants to send a message on AppB on IPC
+				:IANA - allocates certain port
+	- Socket: A combination of IP and Port
+	- Web Browser: Port 80 by default
+	- HTTPS: running on top of a SSL
+		   : transmit into an encrypted data
+	- HTTP Traffic : when credentials are sent on "HTTP" the credentials can be sniffed.
+	- HTTPS: takes anything you put on the net then encrypt it.
+	- Digital certification: to apply HTTPS on a web server
+							- Self Signed Certificate: no third party that tells them who they are.
+
+
+HTTP 1.1 rewritten
+
+HTTP 2 - Pattern on the protocol
+			SPPX by Google
+		-What changed: the message component

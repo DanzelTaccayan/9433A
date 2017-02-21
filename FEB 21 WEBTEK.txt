@@ -1,0 +1,16 @@
+midterms
+w3c and html tim berners-lee
+	5.1 current version
+html 1.0-1990
+html 2.0-rfc4866 nov 1995
+html 3.0 was immediately replaced by 3.1 then 3.2
+html 4.0-1997 december
+4.1-1999
+XHTML 1.0-2000
+1.1
+XHTML died out because it was too strict
+	-extensive
+	-HTML IN XML
+HTML-forgiving to mistakes
+WHATWG- HTML5
+Standardized in 2014

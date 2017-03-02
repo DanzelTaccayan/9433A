@@ -42,4 +42,4 @@ Client Server Protocol Negotiations
  			   						 = typically used on browser end.
  			   - Schemes can be omitted with relative URL
  			   		*Absolute URL - starts with a scheme(Full address)
- 			   		*Relative URL - relative to some place
+ 			   		*Relative URL - relative to some place on element

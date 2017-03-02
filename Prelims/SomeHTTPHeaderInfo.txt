@@ -1,0 +1,16 @@
+4 Category of HTTP Headers (if my terminology is correct)
+General Header Fields
+- Usable by both Server and Client
+
+Request Header Fields
+- Usable by Clients
+
+Response Header Fields
+- Only Server uses this
+
+HTTP 1.0 - no required message header
+HTTP 1.1 - atleast one header
+Status Code - Designate the resulat of the 3 digit no. operation (success or fail)
+			- actual programs (remove this if it doesnt make any sense at all)
+
+Reason Phase - Descriptive

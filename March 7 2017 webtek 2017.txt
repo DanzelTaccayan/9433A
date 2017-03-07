@@ -1,0 +1,39 @@
+Cascading style sheets
+- language to specify the presentational aspects of webpages(aesthetics)
+- Hakon Wium (CHSS) and Bert Bos (SSP)
+
+CSS 1 - December 17 1996
+CSS 2.1 - Ian Hickson
+	- Tantek
+	- June 7 2011
+CSS 3 - 
+
+CSS pre processors, CSS frameworks
+SASS and LESS - assign to a value
+960 grid system, bootstrap, foundation, masterialle - use of classes
+
+HTML/XHTML STYLESHEETS
+- author styles - authors intention on how it will look
+- user style - look depends on users preference
+- user agent style - browsers default style sheet
+
+CSS SPEACH - CSS property like voice, family, voice rate, etc.
+
+CSS RULE SETS
+- consists of selectors
+- Declaration
+
+Selector Syntax
+- chain of one or more sequences of simple selectors separated by combinators with one pseudo-element possibly connected to the last sequence
+
+clir#ABCD>p.xyz[title]+spanlasttotype::after
+
+cli = type
+ABCD = ID
+>,+ = combinators
+after = pseudo-element
+
+sequence of simple selectors
+-chain of simple selectors not separated by combinators
+-always start with type selectors of universal selector (p.xyz/*.xyz)
+-cannot contain other types of selectors

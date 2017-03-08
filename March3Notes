@@ -1,0 +1,58 @@
+Webtech March 3, 2017
+Categories:
+- Heading
+- Sectioning
+- Embedded
+- Phrasing
+DOM interface
+Tag omition in text/html
+Metadata(found in the head)
+- not seen
+Html Elements
+html
+   head
+     title, base,link, meta, style
+   body
+     article, aside, nav, section
+     header, footer
+     main
+     address
+     div
+p
+hr – for break
+pre
+blockquote
+
+ol, ul, li – List
+
+dl, dt, dd – Description List
+
+figure
+   figcaption
+
+a
+em, strong, small, s
+cite, q
+dfn ,abbrev
+ruby, rt, rb, rp, rtc
+data, time – embed machine data
+code, var , samp, kbd
+sup, sub
+i, b , u, mark – meaning have been changed
+bdi, bdo
+span
+br, wbr
+ins, del
+
+<h1>    </h1>
+<h3>    </h3>
+-this sample is a bad habit.
+
+<p>    </p>
+<p>    </p>
+-this is a good habit
+Table
+    caption
+    colgroup, col
+
+form

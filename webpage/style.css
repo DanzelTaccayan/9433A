@@ -1,0 +1,23 @@
+nav a {
+	width: 30%;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color: red;
+}
+.nav{
+	position: fixed;
+	width: 100%;
+}
+.sidebar{
+	margin-top: 3%;
+	width: 30%;
+	height: 800px;
+	background-color: blue;
+	float: left;
+	position: fixed;
+}
+.main{
+	position: relative;
+	height: 800px
+}

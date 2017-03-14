@@ -1,0 +1,123 @@
+CSS Selector 
+
+selector - structure used as a condition in a CSS ru;e
+
+selector syntax:
+   - one or more sequences of simple selectors, combinators and pseudo-element
+   - type selector; universal selector
+   
+group of selectors - comma-separated
+
+simple selector - chained together
+   >type selector - type of element you are targetting
+       ex: p { } - p is the type selector
+       
+   >universal selector -  represented by the *.
+       ex: * { } - all element will be affected
+       
+       
+   >attribute selector 
+            [attr]
+            [attr^=value] - beginning
+            [attr$=value] - end
+            [attr*=value] - anywhere
+            [attr=value] - exact match
+            [attr~=value] - one value in a set of space-separated value
+            [attr|=value] - targets the lang attribute
+            
+    >class selector - represented by a period and a class name
+        ex: .x{ }
+        
+    >ID selector - # sign and id value
+        ex: #x{ }
+        
+    >pseudo-class - implicit class that you are associating with the elements
+    
+        @dynamic pseudo-class
+           -link pseudo-class
+               :link
+               :visited
+               
+               ex:  :link, :visited{ }
+               
+           -user-action pseudo-class
+               :hover - different formatting
+               :active - activate a particular element
+               :focus - to be able to move to a particular element
+               
+        @target pseudo-class
+               :target - #element
+               
+               ex: p {
+                      display:none;
+                    }
+                    
+                   :target {
+                      display: block;
+                   }
+                   
+        @language pseudo-class
+             - :lang()
+             
+        @UI element state pseudo-class
+               :enabled
+               :disbaled
+               :checked
+               :indeterminate
+               
+        @structural pseudo-class
+               :root
+               :first-child
+               :last-child
+               :only-child
+               :nth-child()  - (an+b) odd or even
+               :nth-last-child()  - count from the last child
+               :first-of-type
+               :last-of-type
+               :only-of-type
+               :nth-of-type()
+               :nth-last-of-type()
+               :empty - elements that doesn't have any content
+               
+        @negation pseudo-class
+              :not( <simple selector> )
+              
+   >combinators
+        @descendant combinator - whitespace, (i.e. spacetabs,line feed, carriage return,form feed)
+        @child combinator (>) - direct descendant
+        @sibling combinator - elements that are in the same level
+             (+) adjacent sibling combinator
+                    ex: h1+p
+                      <h1>
+                      <p>
+             (~) general sibling combinator
+                    ex: h1~p
+                      <h1>
+                      <p>
+                      <p>
+                      <p>
+                      
+   >pseudo-elements
+          ::first-letter - individual letter, :first-letter
+          ::first-line - first line of the content, :first-line
+          ::before & ::after - allows you to introduce content before and after the element
+          :before, :after
+          
+          ex:
+             h1 ::before{
+                    content: "Topic: " counter(tn)" : ";
+                    color:red;
+             }
+             
+             h1 {
+                counter-increment 1;
+             }
+                        
+             body {
+                counter-reset:tn0;
+             }
+             
+               
+             
+               
+            

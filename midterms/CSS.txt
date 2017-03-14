@@ -1,0 +1,18 @@
+CSS
+	-language used to specify the presentation aspects of structurally marked up documents.
+	-Hakon Wium Lie (CHSS), Ian Hickson Bert Bos (SSP)
+	-17 Dec 1996
+
+CSS Preprocessors, CSS Frameworks
+	-SASS, Less, 960 Grid System, Bootstrap, Foundation, Materialize etc.
+
+HTML/XHTML Stylesheeys
+	-author
+	-user styles
+
+Author styles
+	-external stylesheets
+	-embedded styles
+	-inline styles
+
+to be continued....

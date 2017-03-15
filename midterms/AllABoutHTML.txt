@@ -1,0 +1,148 @@
+HTML -  Hypertext Markup Language
+	 -	Uses Markups
+ex.
+<h1> Hello World </h1> - Marking up the Hello World statement
+	- language used to create a web page
+	- Used to design a web page
+Website - collection of Web resource
+
+HTML - Structure & Content
+	 - actual information  contained in a webpage
+	 - Look at a webpage as a document because any document has a structure
+	 - HTML should solely be for content
+
+HTML History
+HTTP HTML & URL - 3 cornerstone
+	- Created by Tim Berners Lee
+
+W3C 
+	- Founded by Tim Berners Lee(One of the main founders)
+	- maintains HTML
+
+W3C Recommendations
+	- Standards
+	HTML 1.0 - first release
+	5 years after
+	HTML 2.0 - RFC 1866
+
+W3C 
+ - was transferred to W3C
+ - HTML 3.0 which was superceeded by HTML 3.2
+ - HTML 4.0 - 1997
+ - HTML 4.1 - 1999
+ - Stopped working on HTML and started working on XHTML(Extensive Markup Language) 1.0 - 2000
+
+XML
+	- used for data interchange
+	- text based representation for structured data
+	- rules are very strict(case sensitive)
+
+HTML 
+- no case sensitivity
+
+Browsers
+ - Sandbox - anything you do in the browser stays in the browser
+ - Browsers are forgiving
+
+
+ XHTML
+  - Made HTML stricter(case sensitive)
+  - end tags are required
+  - XHTML was forgotten
+
+
+Ian Hidson
+ - WHATWO - worked on HTML 5
+ - W3c joined in to support HTML 5(2014)
+ - HTML 5 - Rised because of Mobile computing (2020)
+
+
+ HTML Syntax and Terminologies
+ <!DOCTYPE html>
+ 	- Specifies what HTML version you are using
+ 	- it is important to put because it would render you page in "standards" mode(Following the rules which is consistent across different browsers)
+ 	- Without Doctype the browser would render the page in "Quirks mode" which is different on different browsers
+ 	  root element = <html>
+ 
+ <head>
+ 	-  contains meta data, title of document, info about authors and keywords
+<body>
+    - The actual content that is shown to the user
+
+Structure of an element:
+    <h1> Sample Document </h1> - element
+    Consists of an:
+    <h1> - Start Tag
+    </h1> - End tag
+
+Attribute :
+	attribute name = "value"
+	(You can use of remove "" or a tag attrib value)
+
+& - Special character introduction
+
+HTML Syntax & XHTML Syntax
+Content Model - what can it contain
+	e.g. Phrasing Model - Only Those you can put in a paragraph
+			e.g. <p><ul></ul></p> - this cannot be
+
+Global Attributes - for all
+DOM interface - Hook for the document for scripting
+<p> - any themathic collection of items
+	- there is a theme
+
+<img>  - can now be declared without a closing tag - HTML 5
+<img> with closing that or <img/> is XHTML
+
+Dynamic Functionality - Java Script
+
+HTML Elements
+The Structure:
+	<html>
+		<head>
+			<title></title> - to be crawled by web crawlers
+			<base></base> - used to specify what URL your relative url used
+			<link></link> - linking spreadsheets
+			<meta></meta> - for meta information(Data about data)
+			<style></style> - to put CSS
+		</head>
+
+		<body>
+			<header></header>
+			<nav></nav>
+			<main>
+			<aside></aside>
+			<article></article>
+			<section></section>
+			<footer></footer>
+		</body>
+	</html>
+
+Other Elements:
+pre ,small, cite ,q,cite
+dfn, abbr - defining instance
+ruby, rt, rtc, ro - Asian languages
+data,time
+code, var, samp, kbd - machine readable or if you are marking
+i,b,u - Have been changed
+	  - attention is being drawn for
+	  - alternate voice or mood
+bd , bdo - alternate voice or mopod
+span - embedded within a block of text
+wbr - break oppurtunity
+	- when the width is enought don't break but if it is not enough, break
+Forms - for client side script
+
+ data-* attributes
+ 	e.g. <p data-name=" "> - store data to extract
+ role, aria-*
+ 	- accessible reach area
+ 	- accesibility
+ 		e.g. make all functionality available from a keyboard
+
+ WAI - ARIA - Accesibility
+
+*Semantically use HTML properly
+	- Don't use br inappropriately(like using br twice in a row)
+	- hr - Thematic trait(You have a theme and there is a break)
+		 - e.g. Scene1 <hr> Scene2

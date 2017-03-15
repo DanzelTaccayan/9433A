@@ -1,0 +1,188 @@
+CSS(Cascading Style Sheet)
+ - Language used to specify the Presentational Aspects
+ 	e.g. Layout and formatting of structurally marked up documents
+ - Developed by Hakon wium Lie(CHSS) and Bert Boss(SSP)
+ - Ruled by W3C
+ - Dec 1996 first Recommendation
+ CSS1 & CSS 2.1 - monolithic
+ CSS 3 - non monolithic(covering alot of ground)
+ 	   - divided into 2 modules
+ 	   - no level(new addition)
+ 	   - modules will just be upgraded(stops on CSS3)
+ 	   - Can't declare variables because it is constant
+ 	   - but with frameworks it is possible
+ 	   		e.g. SASS - can be used to declare variable
+ 	   			 LESS - creating loops, conditional
+ 	   			 Materialize
+ 	   - not only visual but also oral
+
+
+HTML/XHTML stylesheets
+	Author style
+	User style - own style
+	User Agent Style
+
+Reset CSS
+ - create a stylesheet similar to then apply to all your project
+
+ Author styles
+   - external stylesheets(recommended)
+   		- linking your css to your html
+   		Advantages
+   			- Separation of concerns - can be easily link to another html
+   			- cacheable - CSS
+
+Page Media
+	Print media - can be targeted by CSS
+
+Screen Reader
+  	CSS speech
+
+Media Queries
+ - Secret between responsiveness
+
+ 
+ Embedded Styles - within your html
+ Inline Styles - put it in the element itself
+ 			   - very rare(for quick fixes)
+
+
+ User Style - depends on the browser
+ User-Agent style - embedded
+
+CSS Statement
+*At Rules
+@import - includes files or other
+@namespace - for elements
+@document
+@font-face - specify font and download them
+@keyframes - for animations
+@media - media queries
+
+*CSS Ruleset
+	- consists of a selector, followed by a curlybracket
+	- /* */ - block comment syntax
+
+Selector
+div#abc>p.xyz[title]+span:last-of-type:after
+
+div - type selector
+abc - ID
+> - child
+p - type selector
+xyz - class
+[title] - title value
++ - adjacent
+span:last-of-type::after - pseudo class indicating the last element
++ > - Combinations
+* Chain one or more squences of simple selectors separated by combinators
+, with one pseudo-element possibly appended to the last sequence
+* Can only contain one universal selector
+* Simple selectors can be chained
+* Type Selector - specific element
+* Universal Selector - matches any
+* Attribute Selector - Element based on the value of its attribute
+* CSS starts with either a type selector or a universal selector
+other variants: [class = y] - targets any attribute class with the value y
+
+field char
+| - starts with(for languages)
+- - matches
+^ - starts with
+$ - ends with
+* - matches
+
+class selector - a period and a class name
+id selector - pound sign followed by id name
+
+pseudo-class - there is like an implicit class on a targeted element
+			 - "Fake class" because when you look at the targeted element there is no class or id in it
+
+	:first-child
+		- a first child
+	:nth-child(argument)
+		- all child that is in the argument
+	:nth-last-child()
+		- counting in reverse
+	:first-of-type
+		- the very first of type
+	:empty
+		- elements without contents
+
+	Dynamic - pseudo-classes
+		:link - not yet visited
+		:visited - visited site
+
+	user action - pseudo-classes
+		:hover - when you hover
+		:active - when clicking
+		:focus - when focus is moved to the element
+			-buttons
+			-input elements
+
+	target pseudo class
+		:target
+		-targetting a class
+			e.g. URL: http://www..../#xyz - #xyz is targeted
+
+	UI element states pseudo classes
+		:enabled
+		:disabled
+		:checked
+
+	negation pseudo-class
+		:not() - negates the logic
+			   - "Can target any elements or any selectors except itself"
+
+Combinators
+	descendant 
+		- white space
+		- anything below a node
+	>
+		- child combinator
+	+	
+		- adjacent (sibling)
+		- immediately followed by
+	~
+		- general sibling combinator
+
+pseudo-elements
+::first-letter - targets first letter
+::first-line - targets first-line of the contents
+::before - before
+::after - after
+
+Rule of Precedence
+	- when selectors are the same
+*by origin and importance
+	!important - important declarations overrides everything
+	- user agent important declaration
+	- user important declaration
+	- author important declaration
+	- author normal declarations
+	- user normal declarations
+	- user agent normal declarations
+
+*by specificity
+	- more specific the hiegher
+		- inline style
+		- number of class selectors, attribute selectors, and pseudo-classes
+		- number of type selectors and pseudo-elements
+
+*by order
+	- when they are tied
+
+CSS Declarations
+*Properties
+	-shorthand properties
+		when just a specific property is set, all other properties would be reset to their initial value
+	- vendor specific externion
+		for experimental purposes
+		e.g. -webkit-transform-origin
+
+*Values
+	- keywords: inherit, initial, normal, italic
+	- numbers: 100, 200
+	- dimensions: length, angle, duration
+	- relative: em, ex, ch, rem
+	- resolution units: media queries

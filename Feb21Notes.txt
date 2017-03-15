@@ -1,0 +1,28 @@
+Webtech Lec February 21, 2017
+*HTML and its Role in Modern Web Development
+
+HTML History
+- Development and Evolution
+- Versions
+- Specifications
+
+*HTML Syntax and Terminologies
+
+HTML
+- to create web page
+(Web Page - html file - inside of are contents / structure)
+- Presentational/aesthetic
+-Its static
+
+HTML 1
+HTML 2
+HTML 3.0
+HTML 3.2
+HTML 4.0 1997
+HTML 4.01 1999 – WHATWG
+XHTML 1.0 2000
+- extensible
+XHTML 1.1
+XHTML 2.0
+HTML 5 2014
+- must be 2020

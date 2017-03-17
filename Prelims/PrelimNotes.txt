@@ -21,7 +21,7 @@ Two types (correct me if im wrong)
 					- Chopping them into smaller pieces which is the work of protocols
 			o Packets - smaller pieces of data from a very big data that is being send / recieved.(chopped data)
 	IPv4 - 32 bit -> 4 bytes
-	IPv6 - 64 bit -> 8 bytes
+	IPv6 - 128 bit -> 8 bytes
 
 History
 1969 DARPA

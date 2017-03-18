@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang ="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Webtek 2017 </title>
@@ -8,63 +9,66 @@
 		<h1>Web Systems And Technologies</h1>
 	</header>
 	<nav class="top"></nav>
-	<nav class"sidebar"></nav>
+	<nav class="sidebar"></nav>
 
 	<main>
 		<section>
 			<h2>What is a network?</h2>
-				<p>Interconnected devices that communicate with each other (to share resource)</p>
-				<p>A network is characterized by different nodes</p>
+				<ul>
+					<li>Interconnected devices that communicate with each other (to share resource)</li>
+					<li>A network is characterized by different nodes</li>
+				</ul>
 			<dl>
-			<dt> Two Components: </dt>
-				<dl>
-					<dt>Hardware:</dt>
-						<dd>Examples: Computer, Laptop, Desktop, Routers, Switch, Hub</dd>
-						<dd>Interconnection technology</dd>
-						<dd>Wired -  fibre, UDP, TCP</dd>
-						<dd>Wireless - Infrared(remote control), Bluetooth</dd>
+				<dt>Internet:</dt>
+				<dd>Networks connected to other networks globally, that is why it is also called "networks of networks".</dd>
 
-					<dt>Software:</dt>
-						<dl>
-							<dt> Protocols</dd>
-								<dd>Follow certain rules<br>
-								Example: Computers using serial communication(a bit per transmission) cannot send their transmission at the same time that is why protocols exist to fix the flow</dd>
-									<dl>
-									<dt>Work of Protocols:</dt>
-										<dl>
-											<dt>Put source and its destination</dt>
-												<dd>Where to give and to receive</dd>
-											<dt>Sending Big files</dt>
-												<dd>Chopping them into smaller pieces which is the work of protocols</dd>
-												<dd><dfn>Packets</dfn> are smaller pieces of data from a very big data that is beng send/ recieved (chopped data).</dd>
-										</dl>
-									</dl>
-						</dl>
-				</dl>
-				<dt><abbr title="Interconnected Networks">Internet:</abbr></dt>
-							<dd>networks connected to other networks globally, that is why it is also called "networks of networks"</dd>
-			
+				<dt>Intranet</dt>
+				<dd>Networks connected to other networks within a private area.</dd>
 			</dl>
+
+			<h2> Two Components: </h2>
+
+					<h3>Hardware:</h3>
+						<ul>
+							<li>Examples: Computer, Laptop, Desktop, Routers, Switch, Hub</li>
+							<li>Interconnection technology</li>
+							<li>Wired -  fibre, UDP, TCP</li>
+							<li>Wireless - Infrared(remote control), Bluetooth</li>
+						</ul>
+
+					<h3>Software:</h3>
+						
+							<h4> Protocols: </h4>
+						<ul>
+									<li>Certain set of rules to follow</li>
+									<li>Example: Computers using serial communication(a bit per transmission) cannot send their transmission at the same time that is why protocols exist to fix the flow</li>
+									<li><dfn>Put source and its destination</dfn>: Where to give and to receive</li>
+									<li><dfn>Send Big files</dfn>: Chopping them into smaller pieces which is the work of protocols</li>
+									<li><dfn>Packets</dfn>: are smaller pieces of data from a very big data that is beng send/ recieved (chopped data)</li>
+						</ul>
 
 
 		</section>
 
 		<section>
-			<h2>History of the Internet and the World Wide Web</h2>
-					<dl>
-						<dt>1969 - <abbr title="Defense Advanced Research Projects Agency">DARPA</abbr><dt>
-						<dd><abbr title="Advanced Research Projects Agency Network ">Developed ARPA</abbr>
-								<ul>
-									<li><dfn>Packet switching</dfn> - chopping the data to be sent into smaller pieces and then are sent to the destined recipient where it then assembles the chopped data</li>
-									<li>Store and forward</li>
-									<li> 4 computers connected remotely (<abbr title="University of California at Los Angeles">UCLA</abbr>,
-									<abbr title="University of California at Santa Barbara">UCSB</abbr>,
-									<abbr title="Stanford Research Institute">SRI</abbr>,
-									and University of Utah)</li>
-								</ul>
-							</dd>
-							<dt>1972 - E-mail</dt>
-							<dt>Before the World Wide Web :</dt>
+				<h2>A Brief History of the Internet and the World Wide Web</h2>
+					<div>
+							<h3>1969 - <abbr title="Defense Advanced Research Projects Agency">DARPA</abbr></h3> 
+								
+									<dl>
+									<dt><abbr title="Advanced Research Projects Agency Network ">Developed ARPA</abbr></dt>
+										<dd><dfn>Packet switching</dfn> - chopping the data to be sent into smaller pieces and then are sent to the destined recipient where it then assembles the chopped data</dd>
+										<dd>Store and forward</dd>
+										<dd> 4 computers connected remotely (<abbr title="University of California at Los Angeles">UCLA</abbr>,
+										<abbr title="University of California at Santa Barbara">UCSB</abbr>,
+										<abbr title="Stanford Research Institute">SRI</abbr>,
+										and University of Utah)</dd>
+									</dl>
+					</div>
+
+							<h3>1972 - E-mail</h3>
+					<div>
+							<h3>Before the World Wide Web :</h3>
 									<dl>
 										<dt><abbr title="Wide Area Information Servers">WAIS</abbr></dt>
 											<dd>A system that enables client to search and retrieve documents in a central database. Unlike the <abbr title="World Wide Web">WWW</abbr>, <abbr title="Wide Area Information System">WAIS</abbr> does not link related documents together, instead documents are stored in databases where you have to query the document/s you want to retrieve.<br> An Example would be a document (Document_1) you are reading is related to another document (Document_2), in order to get Document_2 you have to query that document in order to retrieve it.</dd>
@@ -72,14 +76,60 @@
 											<dd> A protocol that is used for searching and retrieving documents. It uses Indexes to Subindexes in order to link other documents together("Hierarchies")</dd>
 											<dd> It was termed <dfn>Gopher</dfn> because like the animal Gopher it burrows from document to document until it reaches its destination.</dd>
 											
-										<li></li>
 										<dt>Usenet</dt>
 											<dd>It is like a "Bulletin Board" or a "Forum". Its modern correspondence would be StackOverflow, and Reddit.</dd>
 									</dl>
+					</div>
 
-							<dt>1989 - <abbr title="World Wide Web">WWW was created</abbr></dt>
-					</dl>
-			</article>
+					
+					<div>
+							<h3>1989 - <abbr title="World Wide Web">WWW</abbr>  was created</h3>
+							<ul>
+								<li>Links documents that are related to each other by using <em>hypertext</em></li>
+
+								<li>The motiviation for the creation of the <abbr title="World Wide Web">WWW</abbr> is for the use of researchers and scientist</li>
+								<li>In the past, <abbr title="World Wide Web">WWW</abbr> was only textual</li>
+							</ul>
+
+								<dl>
+									<dt>Sir Tim Berners-Lee</dt>
+										<dd>works for <abbr title="European Organization for Nuclear Research">CERN</abbr></dd>
+										<dd>Created: <abbr title="Hypertext Transfer Protocol">HTTP</abbr>, <abbr title="Hypertext Markup Language">HTML</abbr>, the 1st web server, and the 1st web client or web browser.</dd>
+
+									<dt>
+										<abbr title="Hypertext Transfer Protocol">HTTP</abbr>
+									</dt>
+
+									<dd>
+										standard language/protocol of the <abbr title="World Wide Web">WWW</abbr>.
+									</dd>
+
+									<dt><abbr title="Hypertext Transfer Protocol">HTML</abbr></dt>
+										<dd>Technology used to connect documents to each other.</dd>
+
+									<dt><abbr title="Uniform Resource Locator">URL</abbr></dt>
+										<dd>URLs are used to differentiate webpages from each other. It also acts as the address of a webpage, it specifies the location and other hierarchal information.</dd>
+
+									<dt>Web Server</dt>
+										<dd>a program that hosts the <abbr title="World Wide Web">WWW</abbr>.</dd>
+
+									<dt>Web Client</dt>
+										<dd>Application that would request to the webserver.</dd>
+								</dl>
+					</div>
+
+					<div>
+						<h3>The Presentday: Sir Tim Berners-Lee and the <abbr title="World Wide Web Consortium">W3C</abbr></h3>
+							<ul>
+								<li>Sir Tim Berners-Lee and The World Wide Web Constortium are overseeing the evolution of the web(which is the semantics or the meaning).</li>
+								<li><dfn>Semantic Search</dfn>: asking questions on the search engine would now be meaningful or it would tell you something.</li>
+							</ul>
+
+					</div>
+											
+										
+								
+
 		</section>
 
 

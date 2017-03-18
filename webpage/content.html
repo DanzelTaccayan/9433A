@@ -14,10 +14,10 @@
 	<main>
 		<section>
 			<h2>What is a network?</h2>
-				<ul>
-					<li>Interconnected devices that communicate with each other (to share resource)</li>
-					<li>A network is characterized by different nodes</li>
-				</ul>
+				<div>
+					<p>Interconnected devices that communicate with each other (to share resource)</p>
+					<p>A network is characterized by different nodes</p>
+				</div>
 			<dl>
 				<dt>Internet:</dt>
 				<dd>Networks connected to other networks globally, that is why it is also called "networks of networks".</dd>
@@ -29,23 +29,30 @@
 			<h2> Two Components: </h2>
 
 					<h3>Hardware:</h3>
+						<div>
+							<p>Examples: Computer, Laptop, Desktop, Routers, Switch, Hub</p>
+						</div>
+						<h4>Interconnection technology</h4>
 						<ul>
-							<li>Examples: Computer, Laptop, Desktop, Routers, Switch, Hub</li>
-							<li>Interconnection technology</li>
-							<li>Wired -  fibre, UDP, TCP</li>
-							<li>Wireless - Infrared(remote control), Bluetooth</li>
+						<li>Wired -  fibre, UDP, TCP</li>
+						<li>Wireless - Infrared(remote control), Bluetooth, <abbr title="Wireless Fidelity">WIFI</abbr>, <abbr title="Worldwide Interoperability for Microwave Access">WIMAX</abbr></li>
 						</ul>
 
 					<h3>Software:</h3>
 						
 							<h4> Protocols: </h4>
-						<ul>
-									<li>Certain set of rules to follow</li>
-									<li>Example: Computers using serial communication(a bit per transmission) cannot send their transmission at the same time that is why protocols exist to fix the flow</li>
-									<li><dfn>Put source and its destination</dfn>: Where to give and to receive</li>
-									<li><dfn>Send Big files</dfn>: Chopping them into smaller pieces which is the work of protocols</li>
-									<li><dfn>Packets</dfn>: are smaller pieces of data from a very big data that is beng send/ recieved (chopped data)</li>
-						</ul>
+						<div>
+									<p>Certain set of rules to follow</p>
+									<p>Example: Computers using serial communication(a bit per transmission) cannot send their transmission at the same time that is why protocols exist to fix the flow</p>
+									<p><dfn>Put source and its destination</dfn>: Where to give and to receive</p>
+									<p><dfn>Send Big files</dfn>: Chopping them into smaller pieces which is the work of protocols</p>
+									<p><dfn>Packets</dfn>: are smaller pieces of data from a very big data that is beng send/ recieved (chopped data)</p>
+									<p>Internet Protocol versions:</p>
+									<ul>
+										<li><dfn title="Internet Protocol version 4">IPv4</dfn> - 32bits(4 bytes)</li>
+										<li><dfn title="Internet Protocol version 6">IPv6</dfn> - 128 bits(8 byts)</li>
+									</ul>
+						</div>
 
 
 		</section>
@@ -53,10 +60,10 @@
 		<section>
 				<h2>A Brief History of the Internet and the World Wide Web</h2>
 					<div>
-							<h3>1969 - <abbr title="Defense Advanced Research Projects Agency">DARPA</abbr></h3> 
+							<h3>1969 - <abbr title="Defense Advanced Research Projects Agency">DARPA</abbr> Developed <abbr title="Advanced Research Projects Agency Network ">ARPA</abbr></h3> 
 								
 									<dl>
-									<dt><abbr title="Advanced Research Projects Agency Network ">Developed ARPA</abbr></dt>
+									<dt><abbr title="Advanced Research Projects Agency Network ">ARPA</abbr></dt>
 										<dd><dfn>Packet switching</dfn> - chopping the data to be sent into smaller pieces and then are sent to the destined recipient where it then assembles the chopped data</dd>
 										<dd>Store and forward</dd>
 										<dd> 4 computers connected remotely (<abbr title="University of California at Los Angeles">UCLA</abbr>,
@@ -84,54 +91,204 @@
 					
 					<div>
 							<h3>1989 - <abbr title="World Wide Web">WWW</abbr>  was created</h3>
-							<ul>
-								<li>Links documents that are related to each other by using <em>hypertext</em></li>
+							<div>
+								<p>Links documents that are related to each other by using <em>hypertext</em></p>
 
-								<li>The motiviation for the creation of the <abbr title="World Wide Web">WWW</abbr> is for the use of researchers and scientist</li>
-								<li>In the past, <abbr title="World Wide Web">WWW</abbr> was only textual</li>
-							</ul>
+								<p>The motiviation for the creation of the <abbr title="World Wide Web">WWW</abbr> is for the use of researchers and scientist</p>
+								<p>In the past, <abbr title="World Wide Web">WWW</abbr> was only textual</p>
+							</div>
 
 								<dl>
 									<dt>Sir Tim Berners-Lee</dt>
 										<dd>works for <abbr title="European Organization for Nuclear Research">CERN</abbr></dd>
-										<dd>Created: <abbr title="Hypertext Transfer Protocol">HTTP</abbr>, <abbr title="Hypertext Markup Language">HTML</abbr>, the 1st web server, and the 1st web client or web browser.</dd>
+										<dd>Created:
+											<ul>
+												<li>
+													<abbr title="Hypertext Transfer Protocol">HTTP</abbr>:
+													 Standard language/protocol of the <abbr title="World Wide Web">WWW</abbr>.
+												</li>
 
-									<dt>
-										<abbr title="Hypertext Transfer Protocol">HTTP</abbr>
-									</dt>
+												<li><abbr title="Hypertext Transfer Protocol">HTML</abbr>:
+												 Technology used to connect documents to each other.</li>
 
-									<dd>
-										standard language/protocol of the <abbr title="World Wide Web">WWW</abbr>.
-									</dd>
+												<li>The 1st Web Server:
+												 a program that hosts the <abbr title="World Wide Web">WWW</abbr>.</li>
 
-									<dt><abbr title="Hypertext Transfer Protocol">HTML</abbr></dt>
-										<dd>Technology used to connect documents to each other.</dd>
+												<li>The 1st Web Client or Web browser: 
+												 Application that would request to the webserver.</li>
+											</ul>
+										</dd>
 
 									<dt><abbr title="Uniform Resource Locator">URL</abbr></dt>
 										<dd>URLs are used to differentiate webpages from each other. It also acts as the address of a webpage, it specifies the location and other hierarchal information.</dd>
-
-									<dt>Web Server</dt>
-										<dd>a program that hosts the <abbr title="World Wide Web">WWW</abbr>.</dd>
-
-									<dt>Web Client</dt>
-										<dd>Application that would request to the webserver.</dd>
 								</dl>
 					</div>
 
 					<div>
-						<h3>The Presentday: Sir Tim Berners-Lee and the <abbr title="World Wide Web Consortium">W3C</abbr></h3>
-							<ul>
-								<li>Sir Tim Berners-Lee and The World Wide Web Constortium are overseeing the evolution of the web(which is the semantics or the meaning).</li>
-								<li><dfn>Semantic Search</dfn>: asking questions on the search engine would now be meaningful or it would tell you something.</li>
-							</ul>
+						<h3>The Present Day: Sir Tim Berners-Lee and the <abbr title="World Wide Web Consortium">W3C</abbr></h3>
+							<div>
+								<p>Sir Tim Berners-Lee and The World Wide Web Constortium are overseeing the evolution of the web(which is the semantics or the meaning).</p>
+								<p><dfn>Semantic Search</dfn>: asking questions on the search engine would now be meaningful or it would tell you something.</p>
+							</div>
 
 					</div>
-											
-										
-								
-
 		</section>
+		
+		<section>
+		<h2>Hypertext Transfer Protocol (HTTP)</h2>
+		<div>
+			<p>Standardization: <abbr title="World Wide Web Consortium">W3C</abbr> and <abbr title="Internet Engineering Task Force">IETF</abbr></p>
 
+			<p>Underlying protocol used by the World Wide Web and this protocol defines how message are formatted and transmitted.</p>
+
+			<p>Runs on top of TCP/IP</p>
+
+			<p>Higher layer protocol that takes advantage of TCP/IP. Example: Packet Switching</p>
+
+			<p><dfn>Stateless communication protocol</dfn> : servers dont keep information about clients in between requests.</p>
+
+			<p>Based on a client server architecture</p>
+
+			<p>Uses a request-response standard protocol. Example: The client sends an HTTP request message to the server, the server processes the request and replies with an HTTP response message</p>
+
+			<p>Uses the Port Number 80 which is the default </p>
+		</div>
+			<dl>
+			<dt>Port Number</dt>
+				<dd>A number from 0 to 65,635</dd>
+				<dd>Application uses this to uniquely identify each other. Example:If App W on IPA wants to send a message on App X on IPC on the same hand, App C on IPA wants to send a message on AppB on IPC, Port numbers makes this possible</dd>
+				<dd><dfn title="Internet Assigned Numbers Authority">IANA</dfn>: the ones responsible for the allocation of certain ports </dd>
+			<dt>Socket</dt>
+				<dd>Consists of an IP address and a port number</dd>
+			</dl>
+		<ul>
+
+		</ul>
+		<h3>Versions of <abbr title="Hypertext Transfer Protocol">HTTP</abbr></h3>
+			<ul>
+				<li><a href="https://www.w3.org/Protocols/HTTP/AsImplemented.html" title="Read About HTTP 0.9">HTTP 0.9 (1991) - The Standard HTTP</a></li>
+
+				<li><a href="https://tools.ietf.org/html/rfc1945"  title="Read About HTTP 1.0(RFC 1945)">HTTP 1.0 (RFC 1945, May 1996) </a></li>
+				<li>
+				HTTP 1.1 (
+				<a href="https://www.ietf.org/rfc/rfc2068.txt" title="Read About RFC 2068">RFC 2068 Jan 1999</a>, 
+				<a href="https://www.ietf.org/rfc/rfc2616.txt" title="Read About RFC 2616">RFC 2616 Jun 1999</a>),<br>
+				(
+				<a href="https://tools.ietf.org/html/rfc7230" title="Read About RFC 7230">RFC 7230 - Message Syntax and Routing</a>, 
+				<a href="https://tools.ietf.org/html/rfc7231" title="Read About RFC 7231">RFC 7231 - Semantics and Content</a>, 
+				<a href="https://tools.ietf.org/html/rfc7232" title="Read About RFC 7232">RFC 7232 - Conditional Requests</a>, 
+				<a href="https://tools.ietf.org/html/rfc7233" title="Read About RFC 7233">RFC 7233 - Range Requests</a>, 
+				<a href="https://tools.ietf.org/html/rfc7234" title="Read About RFC 7234">RFC 7234 - Caching</a>, 
+				<a href="https://tools.ietf.org/html/rfc7235" title="Read About RFC 7235">RFC 7235 - Authentication</a> Jun 2014)</li>
+
+				<li><a href="https://www.ietf.org/rfc/rfc7540.txt" title="Read About RFC 7540">HTTP 2 (RFC 7540 May 2015)</a>
+			</ul>
+		
+		<h3>Hyper Text Transfer Protocol Secure (HTTPS)</h3>
+		<div>
+			<p>Running on top of <abbr title="Secure Sockets Layer">SSL</abbr></p>
+			<p>Uses Port Number: 443</p>
+			<p><dfn>HTTP Traffic</dfn>: when credentials are sent on <abbr title="Hypertext Transfer Protocol">"HTTP"</abbr> the credentials can be sniffed. HTTPS prevents this from happening because it takes anything you put on the net then encrypts it.</p>
+			<p>To apply <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr> on a web server, Digital Certification is needed, but you can create one yourself (Self Signed Certificate) </p>
+			<p><dfn>Self Signed Certificate</dfn>: no third party tells them who they are.</p>
+		</div>
+		
+		<h3>Client-Server Architecture</h3>
+		<h4>Clients</h4>
+		<dl>
+			<dt>Clients a.k.a User Agents</dt>
+			<dd>Any application that communicates with an HTTP server using the HTTP protocol.</dd>
+			<dt>Web Crawlers/Spiders</dt>
+			<dd>used for search engine, to show related keywords when a client searches for something, an example is Google's Google Bot.</dd>
+		</dl>
+
+		<h4>Servers</h4>
+		<dl>
+			<dt>Origin Server</dt>
+				<dd>Physical web servers with different resources</dd>
+				<dd>Machine with an application running(typically a web server)</dd>
+				<dd>Waits for requests in port 80</dd>
+
+			<dt>Proxy Server</dt>
+				<dd>Intermediate machine; used for authentication.</dd>
+
+				<dd>Gateway - <abbr title="Internet Service Provider">ISP</abbr></dd>
+
+			<dt>Encryption Tunnel</dt>
+				<dd>Blind Relay between two points.</dd>
+				<dd>Forwards the communication without knowing the data.</dd>
+				<dd>Allows HTTP traffic to pass through.</dd>
+		</dl>
+
+		<h4>HTTP provides support for other functionalities such as:</h4>
+	         <dl>
+				<dt>Cache Control</dt>
+					<dd>Stores certain things that has already been accessed on a storage location and then retrieves it when it is needed.</dd>
+					<dd>It's foolish to refetch the same content when accessing the same website on different webpages so cache is there to make access fast.</dd>
+
+				<dt>Content Media Type(<abbr title="Multipurpose Internet Mail Extensions">MIME</abbr>) Specification</dt>
+					<dd>Web uses <abbr title="Multipurpose Internet Mail Extensions">MIME</abbr> to identify what type of media it is so that the other end could know how to process it.</dd>
+
+				<dt>Language and Character Set Specification</dt>
+					<dd>Protocol handles it</dd>
+				<dt>Content/Transfer Encodings</dt>
+					<dd>Sending Files/Text. Example: Sending Compressed files</dd>
+
+				<dt>Content Negotiation</dt>
+					<dd>Servers should know how to handle files that are being sent. Example: A compressed file should be decompressable</dd>
+					<dd>Server and Client must agree</dd>
+
+				<dt>Client Server Protocol negotiations</dt>
+					<dd>Two Connections:
+						<dl>
+							<dt>Non - Persistent Connections</dt>
+								<dd>Only available on HTTP 1.0 or HTTP 0.9, follows 4 steps:
+									<ol>
+										<li>Connection</li>
+										<li>Request</li>
+										<li>Response</li>
+										<li>Disconnection</li>
+									</ol>
+								</dd>
+								<dd>A cycle because in requesting you need to do the 4 steps above, the cycle must be first completed before requesting another request.</dd>
+								<dd>Solution to Non-Persisten Connection are Persistent Connection</dd>
+
+							<dt>Persistent Connection:</dt>
+								<dd>Your request would first send an info about your request which would make the connection open for a brief of time</dd>
+								<dd>Available in HTTP 1.1</dd>
+								<dd>Makes use of <dfn>Request Pipelining</dfn>: First and second request can be sent one after another you dont need to wait until a request is finished not like in Non Persistent connection.</dd>
+
+						</dl>
+					</dd>
+	         </dl>
+
+
+
+		
+		<h4>Things To Consider: </h4>
+			<ul>
+				<li><abbr title="Hypertext Transfer Protocol">HTTP</abbr> uses a request-response standard protocol. If the client sends an HTTP request message to the server, the server processes the request and replies with an HTTP response message</li>
+
+				<li>A server can also be a client. A suitable example would be: A client requests from a proxy server , the proxy server(The server which would now become a client) will then go and requests from a gateway. </li>
+
+				<li>Client always pulls from server by request(by using the "PULL" protocol"): client -> http request message -> server -> http response message -> client</li>
+
+				<li>Since HTTP is a stateless protocol, servers doesnt keep info about you
+				it is possible to keep track of you actions in some webpages(E.g. Shopping sites)
+				because of server side scripting technologies.
+				</li>
+
+				<li>Server doesnt initiate request but with the PUSH protocol in HTTP 2.0 it is possible</li>
+			</ul>
+			<dl>
+				<dt><abbr title="Hypertext Transfer Protocol">HTTP</abbr> 2.0 - "PUSH" protocol</dt>
+					<dd>Now the server can volunteer/initiate requests
+	         			E.g. Facebook's news feed </dd>
+	         	<dt>Polling</dt>
+	         		<dd>is the continuous checking of other programs or devices by one progam or device to see what state they are in, usually to see whether they are still connected or want to communicate.</dd>
+	         		<dd>works with pull but not efficient because it wastes of bandwidth and process cycles.</dd>
+	         </dl>
+		</section>
 
 	</main>
 	<footer></footer>

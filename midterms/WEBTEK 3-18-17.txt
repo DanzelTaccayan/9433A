@@ -1,0 +1,29 @@
+CSS Presprocessors
+	-sass(most popular, syntactically awesome stylesheets, ruby) 
+	-SASS- flat structure, SCSS heirarchical
+	less (similar to sass but uses js)
+
+	$col = define variables
+	@mixin pm = padding and margin
+	@main pm (div)
+	h1{pm (20px)}
+	h2{pm (10px)}
+	@function twice ($v){
+		@return $v*2;
+	} ex. h1{@include pm(20px)}
+	@ for $1 from 1 through 6{
+		h#{$i}{
+		font: {
+			family: serif;
+			size: 30px - ($i-1)*4;
+	-haml - uses ruby
+	syntax
+		% body
+		%div
+		% p helloworld!
+	Declare variable
+	-something = "my something"
+		%h1 = something
+	
+CSS Frameworks 
+	- bootstrap

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WEBTEK 2017</title>
+	<link href="style.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    
+</head>
+<body>
+    <header>
+    <div class="head">
+	<h1>WEB SYSTEMS AND TECHNOLOGIES 2017</h1>
+    </div>
+    </header>
+	<div class = "nav">
+        <div class="btn-group btn-block btn-group-justified">
+		<nav>
+			<a href="index.html" class="btn button2">PRELIMS</a>
+			<a href="#" class="btn button2">MIDTERMS</a>
+			<a href="#" class="btn button2">FINALS</a>
+		</nav>
+            </div>
+	</div>
+	<div class = "sidebar">
+		<ul>
+			<li class="line-separator button"><a href = "network.html">What is a network?</a></li>
+			<li class="line-separator button"><a href="history.html">A Brief History of the Internet and the World Wide Web</a></li>
+			<li class="line-separator button"><a href="http.html">Hypertext Transfer Protocol (HTTP)</a></li>         
+		</ul>
+	</div>
+	<div class = "main4">
+        	<h2>Hypertext Transfer Protocol (HTTP)</h2>
+		<h3>Client-Server Architecture</h3>
+		<h4>Clients</h4>
+		<dl>
+			<dt>Clients a.k.a User Agents</dt>
+			<dd>Any application that communicates with an HTTP server using the HTTP protocol.</dd>
+			<dt>Web Crawlers/Spiders</dt>
+			<dd>used for search engine, to show related keywords when a client searches for something, an example is Google's Google Bot.</dd>
+		</dl>
+
+		<h4>Servers</h4>
+		<dl>
+			<dt>Origin Server</dt>
+				<dd>Physical web servers with different resources</dd>
+				<dd>Machine with an application running(typically a web server)</dd>
+				<dd>Waits for requests in port 80</dd>
+
+			<dt>Proxy Server</dt>
+				<dd>Intermediate machine; used for authentication.</dd>
+
+				<dd>Gateway - <abbr title="Internet Service Provider">ISP</abbr></dd>
+
+			<dt>Encryption Tunnel</dt>
+				<dd>Blind Relay between two points.</dd>
+				<dd>Forwards the communication without knowing the data.</dd>
+				<dd>Allows HTTP traffic to pass through.</dd>
+		</dl>
+
+		<h4>HTTP provides support for other functionalities such as:</h4>
+	         <dl>
+				<dt>Cache Control</dt>
+					<dd>Stores certain things that has already been accessed on a storage location and then retrieves it when it is needed.</dd>
+					<dd>It's foolish to refetch the same content when accessing the same website on different webpages so cache is there to make access fast.</dd>
+
+				<dt>Content Media Type(<abbr title="Multipurpose Internet Mail Extensions">MIME</abbr>) Specification</dt>
+					<dd>Web uses <abbr title="Multipurpose Internet Mail Extensions">MIME</abbr> to identify what type of media it is so that the other end could know how to process it.</dd>
+
+				<dt>Language and Character Set Specification</dt>
+					<dd>Protocol handles it</dd>
+				<dt>Content/Transfer Encodings</dt>
+					<dd>Sending Files/Text. Example: Sending Compressed files</dd>
+
+				<dt>Content Negotiation</dt>
+					<dd>Servers should know how to handle files that are being sent. Example: A compressed file should be decompressable</dd>
+					<dd>Server and Client must agree</dd>
+
+				<dt>Client Server Protocol negotiations</dt>
+					<dd>Two Connections:
+						<dl>
+							<dt>Non - Persistent Connections</dt>
+								<dd>Only available on HTTP 1.0 or HTTP 0.9, follows 4 steps:
+									<ol>
+										<li>Connection</li>
+										<li>Request</li>
+										<li>Response</li>
+										<li>Disconnection</li>
+									</ol>
+								</dd>
+								<dd>A cycle because in requesting you need to do the 4 steps above, the cycle must be first completed before requesting another request.</dd>
+								<dd>Solution to Non-Persisten Connection are Persistent Connection</dd>
+
+							<dt>Persistent Connection:</dt>
+								<dd>Your request would first send an info about your request which would make the connection open for a brief of time</dd>
+								<dd>Available in HTTP 1.1</dd>
+								<dd>Makes use of <dfn>Request Pipelining</dfn>: First and second request can be sent one after another you dont need to wait until a request is finished not like in Non Persistent connection.</dd>
+
+						</dl>
+					</dd>
+	         </dl>
+        <div class="align-page-button">
+        <a href="http.html" class="btn btn-info btn-lg"><span class="glyphicon-menu-left"></span>Previous Page</a>
+        <a href="http3.html" class="btn btn-info btn-lg"><span class="glyphicon-menu-right"></span>Next Page</a>
+        </div>
+	</div>
+
+
+</body>
+</html>

@@ -15,4 +15,26 @@ Author styles
 	-embedded styles
 	-inline styles
 
-to be continued....
+CSS Rule Sets
+	-consist of a selector
+	
+Selector
+	- structure used as a condition in a CSS rule to determine which elements in the document tree are matched by the selector.
+	
+Selector Syntax:
+	- chain of one or more sequences of simple selectors separated by combinators with one pseudo-element possibly appended to the last sequence.
+	Example: "div#abc>p.xy[title]+span:last-of-type::after"
+	where:
+		div = type
+		#abc = ID
+		>,+ = combinators
+		.xyz = class
+		:last-of-type, :: after  = pseudo element
+		
+	* = Universal Selector
+	p = Type Selector
+	#web = ID Selector
+	.web = Class Selector
+	
+		
+		

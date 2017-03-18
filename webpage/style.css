@@ -12,40 +12,32 @@ nav a {
     display: block;
 }
 .nav{
-    
 	position: absolute;
 	width: 70%;
     margin-left: 28%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
-
-
 .sidebar{
-	margin-top: 4%;
-	width: 19.7%;
+    margin-top: 2%;
+	width: 15%;
 	height: 800px;
-	background-color: #fff;
-	float: left;
 	position: absolute;
     border: 1px solid #000;
-    
-    
+    border-top: none;
 }
-
 .sidebar ul li a{
     text-decoration: none;
 }
 .main{
 	position: absolute;
-	height:450px;;
-    width: 65%;
+	height: 520px;
+    width: 76%;
     float: right;
-    margin-left: 26%;
-    margin-top: 10%;
+    margin-left: 20%;
+    margin-top: 8%;
     border: 1px solid #000;
     border-radius: 10px;
 }
-
 .main h1{
     font-family: monospace;
     font-size: 75px;
@@ -54,38 +46,32 @@ nav a {
 }
 .head {
     display: block;
-    width: 99%;
+    width: 100%;
     height: 80px;
     padding: 10px;
     border: 1px solid #000;
-    
 }
 header h1{
     margin: 10px 0 0 0;
     padding: 0 0 0px 10px;
-    float: left;
     color: #ACACAC;
+    text-align: center;
 }
-
-
 #line-separator-vertical{
-    width: 19.97%;
+    width: 15%;
     float: left;
     border-right:1px solid #1F1E1E;
-}
-    
+}  
 #line-separator-vertical form{
     float: left;
     width: 100%;
 }
-
 #read-search{
-    margin: 0 10px 10px 0;
-    padding: 10px;
+    margin: 12px 12px 12px 10px;
+    padding: 8px;
     width: 20%;
     float: left;
 }
-
 #read-search input{
 	padding:10px;
 	height:10px;
@@ -95,7 +81,6 @@ header h1{
 	border-radius:10px;
     color: #FFFFFF;
 }
-
 <style type="text/css">
 .errspan {
     float: right;
@@ -106,33 +91,28 @@ header h1{
     z-index: 2;
     color: red;
 }
-
 #idk2{
     float: left;
 }
-
 #idk2 h1{
     margin: 10px 0 0 0;
     font-size: 30px;
     padding: 0 0 0 20px;
     color: #ACACAC;
 }
-
 .line-separator{
     width: 180px;
     background:#ffffff;
     border-bottom:1px solid #000;
     margin-top: 30px;
-    padding: 20px;
+    padding: 15px;
+    float: left;
     
 }
-
 .sidebar ul{
     list-style-type: none;
 }
-
 .main-box{
-    
 }
 
 

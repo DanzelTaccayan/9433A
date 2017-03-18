@@ -1,0 +1,80 @@
+Cahce validation - check if same file cahce and server
+response header fields- only used by servers
+accept-ranges-allows partial resource allocation
+age-how long has response been generated
+entity tag-based on size of resource
+location-for redirection to another page
+proxy-authenticate-authentication
+retry-after-service is not available try at another time
+server-server info
+cary-change a certain option
+
+Entity Header Fields-body of response
+		        -describe the entity
+allow-methods that can be called
+content-encoding-type of folder(zip)
+content-language-language characteristics
+content-length-size of the payload
+content-location-
+content-mp5-
+content range-receive a partial resource
+content-type-format of file
+expires-how long until a resource expires
+last modified-reference value
+
+
+Status Codes
+Informational(1xx)
+100 continue-continue
+101 switching protocol-when a client uses upgrade header
+
+Success(2xx)
+200 ok-success
+201 created-it has been created
+202 accept-accept but not processed yet
+203 nonauthorized information-some are not from origin
+204 no content-succesful but doesnt return aything
+205 reject context-reject for data entry
+206 partial content-not whole page loaded
+
+Redirection(3xx)
+300 multiple choices-more than 1 version(html, txt)
+301 moved permanently- resource has moved to another address
+302 found-redirect to another page
+303 see other-redirect to another page
+304 not modified-redirect to cache
+305 use proxy-access from proxy
+306 unused-reesrved
+307 temporary direct-not accesible here for a temporary time only
+
+Client Error(4xx)
+400 bad request-wrong request
+401 unauthorized-access protected
+402 payment required-used in ecommerce
+403 forbidden-not supposed to access resource
+404 not found-
+405 method not allowed-put in not allowed
+406 not acceptable-everything server will generate client will not accept
+407 proxy authentiaction required-authentication from proxy
+408 request time-out-certain amount of time
+409 conflict-cannot be done because conflict in state of resource
+410 gone-no forwarding address
+411 length requires-required to specify the content length
+412 precondition failed-cannot proceed because failed
+413 request entity too large-payload cant handle size
+414 request-uri too large-request uri is too long
+415 unsupported media type-ex. jpeg format only
+416 request range not satisfiable-entity size not found
+417 expectation failed-
+426 upgrade required
+
+Server Error(5xx)
+500 internal error-invalid option
+501 not implemented-cannot handle/wrong spelling
+502 bad gateway-server is full or overloaded
+503 service unavailable-when doing maintainance
+504 gateway time-out-server is full or overloaded
+505 http version not supported-wrong version
+
+
+HTTP IS EXTENSIBLE

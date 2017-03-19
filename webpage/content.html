@@ -9,26 +9,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/scroll.js"></script>
 	<title>Webtek 2017 </title>
 </head>
 <body>
 	<header>
-        <div class="head">
+        <div class="head" id="myHeading">
 		<h1>Web Systems And Technologies</h1>
         </div>
 	</header>
     
-    <div id="tfheader">
+    <!--<div id="tfheader">
 		<form id="tfnewsearch" method="get"  action="index.html">
 		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
 		</form>
 	<div class="tfclear"></div>
-	</div>
-    
-    <div class = "nav">
+	</div>-->
+    <a href="#" onclick="return false;" onmousedown="resetScroller('myHeading');"><div class="scrollTop">Scroll Up </div></a>
+	<div class = "nav">
         <div class="btn-group btn-block btn-group-justified">
 		<nav>
-			<a href="content.html" class="btn button2 active">PRELIMS</a>
+			<a href="content.html" class="btn button2 active ">PRELIMS</a>
 			<a href="midterms.html" class="btn button2">MIDTERMS</a>
 			<a href="final.html" class="btn button2">FINALS</a>
 		</nav>
@@ -36,9 +37,14 @@
 	</div>
 	<div class="sidebar">
             <a href="index.html"><div class="line-separator button"> Introduction </div></a>
-			<a href="#"><div class="line-separator button">What is a network?</div></a>
-			<a href="#"><div class="line-separator button">A Brief History of the Internet and the World Wide Web</div></a>
-			<a href="#"><div class="line-separator button">Hypertext Transfer Protocol (HTTP)</div></a>         
+			<a href="#" onclick="return false;" onmousedown="autoScrollTo('header1');"><div class="line-separator button">What is a network?</div></a>
+			<a href="#" onclick="return false;" onmousedown="autoScrollTo('header2');"><div class="line-separator button">A Brief History of the Internet and the World Wide Web</div></a>
+			<a href="#" onclick="return false;" onmousedown="autoScrollTo('header3');"><div class="line-separator button">Hypertext Transfer Protocol (HTTP)</div></a>
+			<a href="#" onclick="return false;" onmousedown="autoScrollTo('header4');"><div class="line-separator button">Hypertext Transfer Protocol Secure (HTTPS)</div></a>
+			<a href="#" onclick="return false;" onmousedown="autoScrollTo('header5');"><div class="line-separator button">Request Header Fields</div></a>
+			<a href="#" onclick="return false;" onmousedown="autoScrollTo('header6');"><div class="line-separator button">Response Header Fields</div></a>
+			<a href="#" onclick="return false;" onmousedown="autoScrollTo('header7');"><div class="line-separator button">Entity Header Fields</div></a>
+			<a href="#" onclick="return false;" onmousedown="autoScrollTo('header8');"><div class="line-separator button">Status Codes</div></a>			
 	</div>
     
 	<!--<nav class="top"></nav>
@@ -47,7 +53,7 @@
 	<main>
         
 		<section class="intro">
-			<h2>What is a network?</h2>
+			<h2 id="header1">What is a network?</h2>
 				<div>
 					<p>Interconnected devices that communicate with each other (to share resource)</p>
 					<p>A network is characterized by different nodes</p>
@@ -92,7 +98,7 @@
 		</section>
 
 		<section class="intro">
-				<h3>A Brief History of the Internet and the World Wide Web</h3>
+				<h2 id="header2">A Brief History of the Internet and the World Wide Web</h2>
 					<div>
 							<h5>1969 - <abbr title="Defense Advanced Research Projects Agency">DARPA</abbr> Developed <abbr title="Advanced Research Projects Agency Network ">ARPA</abbr></h5> 
 								
@@ -169,7 +175,7 @@
 		</section>
 		
 		<section class="intro">
-		<h2>Hypertext Transfer Protocol (HTTP)</h2>
+		<h2 id="header3">Hypertext Transfer Protocol (HTTP)</h2>
 		<div>
 			<p>Standardization: <abbr title="World Wide Web Consortium">W3C</abbr> and <abbr title="Internet Engineering Task Force">IETF</abbr></p>
 
@@ -218,7 +224,7 @@
 				<li><a href="https://www.ietf.org/rfc/rfc7540.txt" title="Read About RFC 7540">HTTP 2 (RFC 7540 May 2015)</a>
 			</ul>
 		
-		<h2>Hyper Text Transfer Protocol Secure (HTTPS)</h2>
+		<h2 id="header4">Hyper Text Transfer Protocol Secure (HTTPS)</h2>
 		<div>
 			<p>Running on top of <abbr title="Secure Sockets Layer">SSL</abbr></p>
 			<p>Uses Port Number: 443</p>
@@ -325,7 +331,7 @@
 		</section>
         
         <section id="headerfields" class="intro">
-        <h2> Request Header Fields </h2>
+        <h2 id="header5"> Request Header Fields </h2>
             <div class="request">
             <table class="table">
                 <thead>
@@ -407,7 +413,7 @@
                 </table>
                 </div>
                 
-                <h2> RESPONSE HEADER FIELDS </h2>
+                <h2 id="header6"> RESPONSE HEADER FIELDS </h2>
                 <div class="response">
                 <table class="table">
                     <thead>
@@ -457,7 +463,7 @@
                 </table>
                 </div>
                     
-                <h2> ENTITY HEADER FIELDS </h2>
+                <h2 id="header7"> ENTITY HEADER FIELDS </h2>
                 <div class="entity">
                 <table class="table">
                     <thead>
@@ -514,7 +520,7 @@
         </section>
         
         <section id="statusCode" class="intro">
-            <h2> Status Codes </h2>
+            <h2 id="header8"> Status Codes </h2>
             <div class="status">
                 <a href="#info" class="btn btn-info" data-toggle="collapse"><h5> Informational (1xx) </h5></a>
                 <div id="info" class="collapse-in">

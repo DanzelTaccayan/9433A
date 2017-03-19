@@ -5,7 +5,6 @@
 	<link href="style.css" rel="stylesheet">
     <link href="css/bootstrap-grid.css" rel="stylesheet">
     <link href="css/bootstrap-reboot.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     
 </head>
@@ -18,18 +17,16 @@
 	<div class = "nav">
         <div class="btn-group btn-block btn-group-justified">
 		<nav>
-			<a href="index.html" class="btn button2">PRELIMS</a>
+			<a href="index.html" class="btn button2 active">PRELIMS</a>
 			<a href="#" class="btn button2">MIDTERMS</a>
 			<a href="#" class="btn button2">FINALS</a>
 		</nav>
             </div>
 	</div>
-	<div class = "sidebar">
-		<ul>
-			<li class="line-separator button"><a href = "network.html">What is a network?</a></li>
-			<li class="line-separator button"><a href="history.html">A Brief History of the Internet and the World Wide Web</a></li>
-			<li class="line-separator button"><a href="http.html">Hypertext Transfer Protocol (HTTP)</a></li>         
-		</ul>
+	<div class="sidebar">
+			<a href="network.html"><div class="line-separator button">What is a network?</div></a>
+			<a href="history.html"><div class="line-separator button">A Brief History of the Internet and the World Wide Web</div></a>
+			<a href="http.html"><div class="line-separator button active">Hypertext Transfer Protocol (HTTP)</div></a>         
 	</div>
 	<div class = "main3 glyphicon glyphicon-menu-right">
         	<h2>Hypertext Transfer Protocol (HTTP)</h2>
@@ -89,9 +86,8 @@
 			<p>To apply <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr> on a web server, Digital Certification is needed, but you can create one yourself (Self Signed Certificate) </p>
 			<p><dfn>Self Signed Certificate</dfn>: no third party tells them who they are.</p>
 		</div> 
-        <div class="align-page-button">
-        <a href="http.html" class="btn btn-info btn-lg"><span class="glyphicon-menu-left"></span>Previous Page</a>
-        <a href="http2.html" class="btn btn-info btn-lg"><span class="glyphicon-menu-right"></span>Next Page</a>
+        <div id="container">
+        <div class="position align-right"><a href="http2.html" style="text-decoration:none"><div class="button3 active">Next Page</div></a></div>
         </div>
 	</div>
 

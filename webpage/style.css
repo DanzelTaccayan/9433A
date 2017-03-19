@@ -1,3 +1,10 @@
+a{
+	text-decoration:none;
+}
+
+a:hover {
+   text-decoration:none;
+}
 nav a {
 	width: 28%;
 	float: left;
@@ -18,17 +25,24 @@ nav a {
     margin-top: 2%;
 }
 .sidebar{
-    margin-left: -1%;
-	width: 16%;
+	width: 15%;
 	height: 888px;
 	position: absolute;
     border: 1px solid #000;
     border-top: none;
-    background-color: #FFFFCC;
+	background-color:rgba(0,0,255,0.6);
+	padding-top: 5%;
 }
-.sidebar ul li a{
-    text-decoration: none;
+
+.active{
+	background-color:rgba(192,192,192,.8);
 }
+
+.sidebar a div{
+	padding-left: 10%;
+}
+
+
 .main{
 	position: absolute;
 	height: 825px;
@@ -158,39 +172,70 @@ header h1{
     color: #ACACAC;
 }
 .line-separator{
-    width: 180px;
-    background:#ffffff;
+    width: 200px;
     border-bottom:1px solid #000;
     margin-top: 30px;
     padding: 15px;
     float: left;
     
 }
-.sidebar ul{
-    list-style-type: none;
-}
+
 .main-box{
 }
+
 .button {
-    background-color: #FFFFCC;
-    color: black;
-    border: 2px solid #e7e7e7;
-    border: none;
+    border: 2px;
+	color: black;
 }
 .button:hover {
-    background-color: #e7e7e7;
+    background-color:rgba(192,192,192,.8);
     text-decoration: none;
 }
 .button2 {
-    background-color: none;
     color: black;
-    border: 2px solid #e7e7e7;
-    border: none;
+    border: 2px;
 }
 .button2:hover {
-    background-color: #e7e7e7;
+    background-color:rgba(192,192,192,.8);
     text-decoration: none;
 }
-.align-page-button{
-    margin-left: 68%;
+
+.button3 {
+	
+    color: black;
+    border: 2px;
+	height: 50px;
+	width:200px;
+	padding: 10px;
+	border-radius: 40px;
+	background-color:rgba(0,0,255,0.6);
+}
+.button3:hover {
+	color: black;
+    background-color:rgba(192,192,192,.8);
+    text-decoration: none;
+}
+
+#container{
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.position{
+    float:left;
+    padding-bottom: 10px;
+    width:20%;
+    position: relative;
+}
+
+.align-right{
+	text-align:center;
+	position:absolute;
+    right: 20px;
+	
+}
+.align-left{
+	text-align: center;
+	left:20px;
+	position:absolute;
 }

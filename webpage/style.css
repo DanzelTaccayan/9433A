@@ -42,10 +42,19 @@ nav a {
 	padding-left: 10%;
 }
 
+.font{
+	font-family: Old English Text MT;
+	position:absolute;
+	font-size: 100px;
+	width: 300px;
+	height: 300px;
+	left:calc(50% - 150px);
+	top:calc(50% - 150px);
+}
 
 .main{
 	position: absolute;
-	height: 825px;
+	height: 888px;
     width: 76%;
     float: right;
     margin-left: 20%;
@@ -62,7 +71,7 @@ nav a {
 }
 .main2{
 	position: absolute;
-	height: 1100px;
+	height: 1300px;
     width: 76%;
     float: right;
     margin-left: 20%;

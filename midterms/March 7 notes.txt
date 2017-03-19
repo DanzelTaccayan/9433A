@@ -1,0 +1,18 @@
+Selectors
+ :active = used to select and style active links.
+ :focus = used to select element that has focus.
+ :link = used to select unvisited links.
+ :visited = it is used to select visited links.
+ :lang() = used to target languange attribute.
+
+UI elements states pseudi classes
+ :enabled = used to enable elements mostly on form elements.
+ :disabled = used to disable elements mostly on form elements.
+ :checked = used to change the styles of checked <option> elements.
+ :indeterminate = used to change the styles of neither checked nor unchecked <option> elements.
+
+Structural pseudo class
+ :root = targets the root element.
+ :first-child = targets the first-child of its parent.
+ :only-child = targets any element that is the only-child of its parent.
+ :nth-child() = 

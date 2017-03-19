@@ -60,21 +60,21 @@
 				<dd>Networks connected to other networks within a private area.</dd>
 			</dl>
 
-			<h2> Two Components: </h2>
+			<h3> Two Components: </h3>
 
-					<h3>Hardware:</h3>
+					<h4>Hardware:</h4>
 						<div>
 							<p>Examples: Computer, Laptop, Desktop, Routers, Switch, Hub</p>
 						</div>
-						<h4>Interconnection technology</h4>
+						<h5>Interconnection technology</h5>
 						<ul>
 						<li>Wired -  fibre, UDP, TCP</li>
 						<li>Wireless - Infrared(remote control), Bluetooth, <abbr title="Wireless Fidelity">WIFI</abbr>, <abbr title="Worldwide Interoperability for Microwave Access">WIMAX</abbr></li>
 						</ul>
 
-					<h3>Software:</h3>
+					<h4>Software:</h4>
 						
-							<h4> Protocols: </h4>
+							<h5> Protocols: </h5>
 						<div>
 									<p>Certain set of rules to follow</p>
 									<p>Example: Computers using serial communication(a bit per transmission) cannot send their transmission at the same time that is why protocols exist to fix the flow</p>
@@ -92,9 +92,9 @@
 		</section>
 
 		<section class="intro">
-				<h2>A Brief History of the Internet and the World Wide Web</h2>
+				<h3>A Brief History of the Internet and the World Wide Web</h3>
 					<div>
-							<h3>1969 - <abbr title="Defense Advanced Research Projects Agency">DARPA</abbr> Developed <abbr title="Advanced Research Projects Agency Network ">ARPA</abbr></h3> 
+							<h5>1969 - <abbr title="Defense Advanced Research Projects Agency">DARPA</abbr> Developed <abbr title="Advanced Research Projects Agency Network ">ARPA</abbr></h5> 
 								
 									<dl>
 									<dt><abbr title="Advanced Research Projects Agency Network ">ARPA</abbr></dt>
@@ -107,9 +107,9 @@
 									</dl>
 					</div>
 
-							<h3>1972 - E-mail</h3>
+							<h4>1972 - E-mail</h4>
 					<div>
-							<h3>Before the World Wide Web :</h3>
+							<h4>Before the World Wide Web :</h4>
 									<dl>
 										<dt><abbr title="Wide Area Information Servers">WAIS</abbr></dt>
 											<dd>A system that enables client to search and retrieve documents in a central database. Unlike the <abbr title="World Wide Web">WWW</abbr>, <abbr title="Wide Area Information System">WAIS</abbr> does not link related documents together, instead documents are stored in databases where you have to query the document/s you want to retrieve.<br> An Example would be a document (Document_1) you are reading is related to another document (Document_2), in order to get Document_2 you have to query that document in order to retrieve it.</dd>
@@ -124,7 +124,7 @@
 
 					
 					<div>
-							<h3>1989 - <abbr title="World Wide Web">WWW</abbr>  was created</h3>
+							<h4>1989 - <abbr title="World Wide Web">WWW</abbr>  was created</h4>
 							<div>
 								<p>Links documents that are related to each other by using <em>hypertext</em></p>
 
@@ -159,7 +159,7 @@
 					</div>
 
 					<div>
-						<h3>The Present Day: Sir Tim Berners-Lee and the <abbr title="World Wide Web Consortium">W3C</abbr></h3>
+						<h4>The Present Day: Sir Tim Berners-Lee and the <abbr title="World Wide Web Consortium">W3C</abbr></h4>
 							<div>
 								<p>Sir Tim Berners-Lee and The World Wide Web Constortium are overseeing the evolution of the web(which is the semantics or the meaning).</p>
 								<p><dfn>Semantic Search</dfn>: asking questions on the search engine would now be meaningful or it would tell you something.</p>
@@ -198,7 +198,7 @@
 		<ul>
 
 		</ul>
-		<h3>Versions of <abbr title="Hypertext Transfer Protocol">HTTP</abbr></h3>
+		<h4>Versions of <abbr title="Hypertext Transfer Protocol">HTTP</abbr></h4>
 			<ul>
 				<li><a href="https://www.w3.org/Protocols/HTTP/AsImplemented.html" title="Read About HTTP 0.9">HTTP 0.9 (1991) - The Standard HTTP</a></li>
 
@@ -218,7 +218,7 @@
 				<li><a href="https://www.ietf.org/rfc/rfc7540.txt" title="Read About RFC 7540">HTTP 2 (RFC 7540 May 2015)</a>
 			</ul>
 		
-		<h3>Hyper Text Transfer Protocol Secure (HTTPS)</h3>
+		<h2>Hyper Text Transfer Protocol Secure (HTTPS)</h2>
 		<div>
 			<p>Running on top of <abbr title="Secure Sockets Layer">SSL</abbr></p>
 			<p>Uses Port Number: 443</p>
@@ -325,7 +325,7 @@
 		</section>
         
         <section id="headerfields" class="intro">
-        <h3> Request Header Fields </h3>
+        <h2> Request Header Fields </h2>
             <div class="request">
             <table class="table">
                 <thead>
@@ -381,7 +381,7 @@
                     </tr>
                 <tr>
                     <td> If-Unmodified-Since </td>
-                    <td></td>
+                    <td>This is used and is accompanied with a method to make it conditional. If those variants requested was not modified since the moment it was in the field, an entity will not be returned from the server.</td>
                     </tr>
                 <tr>
                     <td> Max-Forward </td>
@@ -393,25 +393,21 @@
                     </tr>
                 <tr>
                     <td> Range </td>
-                    <td></td>
+                    <td>two types: Range Retrieval Requests and Byte Ranges </td>
                     </tr>
                 <tr>
                     <td> Referer </td>
-                    <td></td>
+                    <td>This will permit the client to indentify the address of the resource where we can obtain the request-URI. </td>
                     </tr>
                 <tr>
                     <td> User-Agent </td>
-                    <td></td>
-                    </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
+                    <td>This holds the informations originating the request about the user agent.</td>
                     </tr>
                 </tbody>
                 </table>
                 </div>
                 
-                <h3> RESPONSE HEADER FIELDS </h3>
+                <h2> RESPONSE HEADER FIELDS </h2>
                 <div class="response">
                 <table class="table">
                     <thead>
@@ -443,25 +439,25 @@
                         </tr>
                     <tr>
                         <td>Retry-After</td>
-                        <td></td>
+                        <td>This is used to a 503 response to tell on how long will it take the service to be unavailable to the request client.</td>
                         </tr>
                     <tr>
                         <td>Server</td>
-                        <td></td>
+                        <td>This holds the information to the software that has been used to handle the request by the origin server.</td>
                         </tr>
                     <tr>
                         <td>Vary</td>
-                        <td></td>
+                        <td>This will specify the set of request-header fields that will fully determine whether a cache is allowed to use response to a subsequent request without revalidation.</td>
                         </tr>
                     <tr>
                         <td>WWW-Authenticate</td>
-                        <td></td>
+                        <td>This should be included in a 401 response message. </td>
                         </tr>
                     </tbody>
                 </table>
                 </div>
                     
-                <h3> ENTITY HEADER FIELDS </h3>
+                <h2> ENTITY HEADER FIELDS </h2>
                 <div class="entity">
                 <table class="table">
                     <thead>
@@ -518,7 +514,7 @@
         </section>
         
         <section id="statusCode" class="intro">
-            <h3> Status Codes </h3>
+            <h2> Status Codes </h2>
             <div class="status">
                 <a href="#info" class="btn btn-info" data-toggle="collapse"><h5> Informational (1xx) </h5></a>
                 <div id="info" class="collapse-in">

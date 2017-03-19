@@ -330,6 +330,193 @@
 	         </dl>
 		</section>
         
+        <section id="headerfields" class="intro">
+        <h3> Request Header Fields </h3>
+            <div class="request">
+            <table class="table">
+                <thead>
+                <tr> 
+                    <th> Name </th>
+                    <th> Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td> Accept </td>
+                    <td> this is used to specify a certain media types and to indicate a request with a limitation in a set of types.</td>
+                    </tr>
+                <tr>
+                    <td> Accept-charset </td>
+                    <td> his is used to specify the character sets than can be used for a response. </td>
+                    </tr>
+                <tr>
+                    <td> Accept-encoding </td>
+                    <td> Same as the accept request header field, but this restricts the content-codings which are acceptable in a response.</td>
+                    </tr>
+                <tr>
+                    <td>Accept-Language </td>
+                    <td> This restricts the set of natural languages that was choosed as the response to a request. This is also same as the accept request header field.</td>
+                    </tr>
+                <tr>
+                    <td> Expect </td>
+                    <td> This is used to indicate that specific server behaviors that are required by a client.</td>
+                    </tr>
+                <tr>
+                    <td> From </td>
+                    <td> If this is given, it must contain an internet e-mail which is addressed for the human user who is controlling the request user agent.</td>
+                    </tr>
+                <tr>
+                    <td> Host </td>
+                    <td> This will indicate the internet host and the port number of the resource which is being requested.</td>
+                    </tr>
+                <tr>
+                    <td> If-Match</td>
+                    <td> This is used and is accompanied with a method to make it conditional. Client with one or more entities that is previously obtained from a resource can be verified that one of the entities is current.</td>
+                    </tr>
+                <tr>
+                    <td> If-Modified-Since</td>
+                    <td> This is used and is accompanied with a method to make it conditional: If the variant that is requested hasn't been modified yet since the moment it was specified in the field, an entity will not be returned to the server.</td>
+                    </tr>
+                <tr>
+                    <td> If-Not-Match</td>
+                    <td> This is used and is accompanied with a method to make it conditional. The purpose of If-None-match is to have and allow an efficient updates of cached information.</td>
+                    </tr>
+                <tr>
+                    <td> If-Range</td>
+                    <td>This will allow a client to have a 'Short-circuit' to the second rquest.</td>
+                    </tr>
+                <tr>
+                    <td> If-Unmodified-Since </td>
+                    <td></td>
+                    </tr>
+                <tr>
+                    <td> Max-Forward </td>
+                    <td> This is used to provide a mechanism with the trace and options methods which will limit the quantity of proxies or gateways.</td>
+                    </tr>
+                <tr>
+                    <td>Proxy-Authorization</td>
+                    <td> This is used to allow a client identify itself to a proxy.</td>
+                    </tr>
+                <tr>
+                    <td> Range </td>
+                    <td></td>
+                    </tr>
+                <tr>
+                    <td> Referer </td>
+                    <td></td>
+                    </tr>
+                <tr>
+                    <td> User-Agent </td>
+                    <td></td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                </tbody>
+                </table>
+                
+                <table class="table">
+                    <thead>
+                <tr> 
+                    <th> Name </th>
+                    <th> Description</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                        <td>Accept-Range</td>
+                        <td>This will auhorize a server to indicate its acceptance of range requests for a resource.</td>
+                        </tr>
+                    <tr>
+                        <td>Age</td>
+                        <td> This is used to convey the sender's estimated time from the moment the response was generated to an origin server.</td>
+                        </tr>
+                    <tr>
+                        <td>E-tag</td>
+                        <td>This will give you the current value of the entity-tag for the requested variant.</td>
+                        </tr>
+                    <tr>
+                        <td>Location</td>
+                        <td> This is used to redirect those recipients to other location aside from the request-URI.</td>
+                        </tr>
+                    <tr>
+                        <td>Proxy-Authenticate</td>
+                        <td>This is should always be included as part of a 407 response.</td>
+                        </tr>
+                    <tr>
+                        <td>Retry-After</td>
+                        <td></td>
+                        </tr>
+                    <tr>
+                        <td>Server</td>
+                        <td></td>
+                        </tr>
+                    <tr>
+                        <td>Vary</td>
+                        <td></td>
+                        </tr>
+                    <tr>
+                        <td>WWW-Authenticate</td>
+                        <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <table class="table">
+                    <thead>
+                <tr> 
+                    <th> Name </th>
+                    <th> Description</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                        <td>Allow</td>
+                        <td> This will enumarate all the set of methods that are allowed and supported by the resource indentified by the request-URI.</td>
+                        </tr>
+                    <tr>
+                        <td>Content-Encoding</td>
+                        <td> This is used as the modifier to a media-type.</td>
+                        </tr>
+                    <tr>
+                        <td>Content-Language</td>
+                        <td> This is used to describes the natural langauages which is intended to use to audiences for the enclosed entity.</td>
+                        </tr>
+                    <tr>
+                        <td>Content-Length</td>
+                        <td>This will show the size of the entity-body.</td>
+                        </tr> 
+                    <tr>
+                        <td>Content-Location</td>
+                        <td> This might be used to supply the resource location for the entity enclosed in a message.</td>
+                        </tr> 
+                    <tr>
+                        <td>Content-MD5</td>
+                        <td>"This is an MD5 digest of an entity-body for the purpose of providing an end-to-end message integrity check (MIC) of the entity-body" as defined in RFC 1864[23].</td>
+                        </tr> 
+                    <tr>
+                        <td>Content-Range</td>
+                        <td> This is sent with a partial entity-body which is used to specify where to put and apply in the full entity-body this partial body.</td>
+                        </tr> 
+                    <tr>
+                        <td>Content-Type</td>
+                        <td> This will show the media type of the entity-body that was sent to a recipient.</td>
+                        </tr> 
+                    <tr>
+                        <td>Expires</td>
+                        <td> This will provide you the date and time after a response is considered stale.</td>
+                        </tr>
+                    <tr>
+                        <td>Last Modified</td>
+                        <td> This will show the date and time to which the origin server was believed the variant was last modified.</td>
+                        </tr> 
+                    </tbody>
+                </table>
+                
+            </div>
+        </section>
+        
         <section id="statusCode" class="intro">
             <h3> Status Codes </h3>
             <div class="status">

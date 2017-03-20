@@ -377,11 +377,18 @@ footer #block-footeraddress{
     color: #fff;
     font-family: cursive;
     font-size: 11px;
+    
 }
+
+footer #block-footeraddress p{ 
+margin-left: 20px;
+margin-top: 15px;}
+
 
 footer #copy_area{
     color: #007e8c;
-    height: 30px
+    height: 30px;
+    font-size: 13px;
 }
 
 .intro h3,dt{
@@ -391,3 +398,4 @@ footer #copy_area{
 .intro h3{
     text-decoration: underline;
 }
+

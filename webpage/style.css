@@ -368,3 +368,26 @@ header h1{
 .scrollTop:hover{
 	opacity:.8;
 }
+
+footer #block-footeraddress{ 
+    
+    width:100%;
+    height: 100px;
+    background-color: #007e8c;
+    color: #fff;
+    font-family: cursive;
+    font-size: 11px;
+}
+
+footer #copy_area{
+    color: #007e8c;
+    height: 30px
+}
+
+.intro h3,dt{
+    font-family:cursive;
+}
+
+.intro h3{
+    text-decoration: underline;
+}

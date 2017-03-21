@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>STANLEY - Free Bootstrap Theme </title>
+    <title>WEBTEK 2017</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -109,6 +109,60 @@
 
 				<li><a href="https://www.ietf.org/rfc/rfc7540.txt" title="Read About RFC 7540">HTTP 2 (RFC 7540 May 2015)</a>
 			</ul>
+                <h2>HTTP Addressing</h2>
+	<dl>
+ 	<dt><abbr title="Uniform Resource Identifier">URI</abbr></dt> 
+ 		<dd>consists of a URN and a URL</dd>
+
+ 	<dt><abbr title="Uniform Resource Name">URN</abbr></dt> 
+ 		<dd>Unique name for some resource</dd>
+ 	<dt><abbr title="Uniform Resource Locator">URL</abbr></dt>
+ 		<dd>Where the resource is(digital resource)</dd>
+	</dl>
+
+ 		<h3>Parts of a <abbr title="Uniform Resource Locator">URL</abbr></h3>
+ 		<dl> 
+ 			<dt>Scheme: </dt>
+ 			<dd>
+ 			<ul>
+ 			  <li>file - local resource </li>
+ 			  <li><abbr title="Hyptertext Transfer Protocol">HTTP</abbr>/<abbr title="Hyptertext Transfer Protocol Secure">HTTPS</abbr> - web resource</li>
+ 			</ul>
+ 			</dd>
+
+ 			<dt>User info or Authentication (optional)</dt>
+ 			<dd>
+ 			  <ul>
+ 			  	<li>authority -deprecated</li>
+ 			  </ul>
+ 			 </dd>
+
+ 			<dt>Host</dt>
+ 			<dd>Domain name: resolved to an IP address using DNS of the server where the resource resides</dd>
+ 			<dt>Port Number</dt>
+ 			<dd>uses the default port 80 for <abbr title="Hypertext Transfer Protocol">HTTP</abbr> and 443 for <abbr title="Hypertext Transfer Protocol Secure">HTTPS</abbr></dd>
+
+ 			<dt>Path to the resource</dt>
+ 			<dd>
+ 				<ul>
+ 			   		<li>Logical path: sometimes it is not good to put the physical path of your resource</li>
+ 			   		<li>May be static(served as is) or dynamic(usually a script) resource</li>
+ 			   		<li>query: starts with a question mark and typically provided as key = value pairs with ampersand(&) separators between key/value pairs.</li>
+ 			   		<li>Special characters are <abbr title="Uniform Resource Locator">URL</abbr> encoded(transformed into something else).
+ 			   			E.g. whitespace is equivalent to  + </li>
+ 			   		<li>Some are converted into ASCII codes</li>
+ 			   		<li>Fragment Identifier = starts with a # followed by a key value. Typically used on browser end.</li>
+ 			   		<li>Schemes can be omitted with relative URL</li>
+ 			   		<li>Absolute URL - starts with a scheme(Full address)</li>
+ 			   		<li>Relative URL - relative to some place on element</li>
+ 			   	</ul>
+			</dd>
+ 		</dl>
+ 		<figure>
+ 			
+  			<img src="assets/img/portfolio/addressing.png" alt="HTTP Adressing Example" width="304" height="228">
+  			<figcaption><abbr title="Hypertext Transfer Protocol">HTTP</abbr> Addressing Example </figcaption>
+ 		</figure>
 			</div>
 		</div>
 	</div><!-- /container -->

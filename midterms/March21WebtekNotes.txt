@@ -1,0 +1,93 @@
+Webtech Lec March 21, 2017
+
+Java-Script
+- client-side scripting
+- reference: mozilla developer network
+
+Standard ECMA-262
+ECMAScript ® 2016 Language Specification
+7th Edition (June 2016)
+
+* Externally Linked Script
+<script type = 'text/javascript' src = 'script.js'>
+</script>
+
+> defer - bottom part
+> async - upper middle part
+
+* Embedded Script
+<script>
+ console log();
+
+ function callMe(){
+}
+
+</script>
+
+* Inline Script
+<button onclick = 'console.log("inline script");'>
+  click me
+</button>
+
+> onclick - event attribute
+
+ENVIRONMENT
+*window 
+- global object
+
+*window.navigator 
+- the browser itself
+
+*appversion 
+- current version
+
+*window.document 
+- the html/document
+
+*document.getElementBy('h') 
+- show the value range of 'h'
+
+h.textContent = 'Hello'
+h.innerText = 'Hi'
+*ignores mark-up
+h.innerHtml = 'Hi'
+-*interprets any markup
+h.innerHtml
+h.outerHtml
+h.title = ''
+h.lang = 'en.US'
+h.data-extra
+*Note that the symbol above(-) is not a valid char in javascript*
+h.setAttribute('data-extra', 'value')
+h.getAttribute('data-extra', 'value')
+h.style = 'color:blue'
+h.style.color = 'red' -> '' is a string
+
+h.style.font-size = '2em' 
+-> this is the WRONG way. remember that the symbol (-) is not a valid char in javascript
+h.style.fontSize = '2em' 
+-> this is the RIGHT way. Use Camel Case
+
+h.style.backgroundColor = 'green-text'
+document.getElementByTagName ('') []
+document.querySelector('p')
+ - returns the first value of 'p'
+document.querySelectorAll('p')
+ - returns all the value of 'p'
+[p, p, p, p, p,]
+
+document.querySelectorAll('h1 + p')
+> [p]
+
+var p = document.querySelector('p')
+
+p.matches('h1')
+> FALSE
+p.matches('Body p')
+> TRUE
+
+DOM - Document Object Model
+
+
+
+

@@ -1,0 +1,46 @@
+Webtech Lec March 24, 2017
+
+<noscript>
+
+</noscript>
+
+"Sand Box"
+- Limited Envrinment
+
+document
+-it is an interface
+
+Document Fragment
+
+Modified in DOM Level 3
+1. h.insertBefore()
+
+2. h.replaceChild()
+
+3. h.removeChild()
+
+4. appendChild()
+
+cloneMode(true) 
+- to copy
+
+sample
+b = document.body.cloneNode(true)
+<body>
+<p id = 'p'> ... </p>
+<!-- comment -->
+<noscript> ... </noscript>
+"Pamalit"
+<h1> ... </h1>
+<h1> ... </h1>
+</body>
+
+
+adoptNode()
+- remove and move to new location.
+
+*Not all are implemented
+- Node
+ex. firstElementChild
+- Elements
+ex. firstChild

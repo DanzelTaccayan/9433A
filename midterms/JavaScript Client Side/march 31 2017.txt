@@ -1,0 +1,23 @@
+js 
+- imperative language
+- dynamically typed
+
+*math *date *function *array *object
+
+functions 
+- functions can return any type of value 
+- anonymous function 
+- arrow syntax (fat)
+
+functions can be recursive
+functions can be negated
+	- error object
+	- default argument value 
+function arguments can have default values
+	- rest parameters
+
+Arrays 
+	- literal array
+	- length array 
+	- matrix 
+	- destructuring

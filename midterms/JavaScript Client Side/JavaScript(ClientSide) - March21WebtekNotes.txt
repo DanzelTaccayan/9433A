@@ -5,7 +5,7 @@ Java-Script
 - reference: mozilla developer network
 
 Standard ECMA-262
-ECMAScript ® 2016 Language Specification
+ECMAScript Â® 2016 Language Specification
 7th Edition (June 2016)
 
 * Externally Linked Script
@@ -87,6 +87,13 @@ p.matches('Body p')
 > TRUE
 
 DOM - Document Object Model
+The dash is not a valid character in java script.
+asynchronous loading - execute cript as soon as it becomes available
+ecma script - standardized js
+defer - make 2 things parallel
+Document Object - represents HTML
+set attribute - set attributes on elements
+
 
 
 

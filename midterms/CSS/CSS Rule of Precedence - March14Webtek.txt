@@ -1,0 +1,36 @@
+Webtech Lec March 14, 2017
+
+CSS Rules Precedence
+1. by origin and importance
+2. by specificity
+3. by order
+
+1. By Origin and Importance
+- User Agent importance declaration
+- User important declaration
+- Author importance declaration
+- Author Normal declaration
+- User normal declaration
+- user agent normal declaration
+
+2. By Specificity
+- inline style
+- number of ID selectors
+- number of class selectors, attrib. selector and pseudo-classes
+- Number of type selectors and pseudo-elements
+
+CSS Declaration
+
+*Properties
+-shorthand properties
+(this appendix is informative)
+
+-vendor specific extension aka vendor-specific
+
+Values
+- keywords
+- number
+- dimensions
+  > length, angles
+
+h,s,l,0,100%,50%

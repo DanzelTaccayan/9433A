@@ -1,0 +1,47 @@
+Webtech Notes March 10, 2017
+
+Simple Selector
+- type selector
+- universal selector
+- attribute selector
+   * ~ - one value
+   * | - lang. attribute
+   * ^ -
+   * $ -
+   * * -
+- class selector
+
+Pseudo Class
+* Dynamic Pseudo Class
+  - link
+  - visited
+* User Action Pseudo-Class
+  - :hover
+  - :active
+  - :focus
+
+Target Pseudo-Class - :target
+Language Pseudo-Class - :langcs
+VI Element states Pseudo-Class
+ - :enabled
+ - :disabled
+ - :checked
+ - :indeterminate
+
+Structural Pseudo-Classes
+ - :root
+ - :first-child
+ - :last-child
+ - :only-child
+ - :nth-child()
+ - :nth-last-child()
+ - :first-of-type
+ - :last-of-type
+ - :nth-last-of-type
+ - :empty
+
+Pseudo Elements
+ - first-letter, :first letter
+ - first-line, :first line
+ - before, :After
+ - after, :Before

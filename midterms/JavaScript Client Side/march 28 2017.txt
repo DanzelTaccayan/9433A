@@ -1,0 +1,16 @@
+java script 
+- imperative
+- object oriented
+- properties can be overriden
+- no need to declare type
+- dynamic variables
+
+var - accessible outside the block, can be declared
+let - cannot be declared, cannot be used outside a block
+const - same behaviro as let but you cannot modify it unlike let
+
+2 types in JS 
+simple / primitive
+obj
+
+javascript always does floating point division

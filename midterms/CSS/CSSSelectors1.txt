@@ -15,4 +15,22 @@ Structural pseudo class
  :root = targets the root element.
  :first-child = targets the first-child of its parent.
  :only-child = targets any element that is the only-child of its parent.
- :nth-child() = 
+ :nth-child(n) = Selects the element that is the nth child of its parent.
+ :nth-last-child(n) = Selects the element  that is the nth child of its parent counting from the last, or reverse of :nth-child(n).
+ :first-of-type = Selects the element that is the first sibling of its type in a list of children of its parent element.
+ :last-of-type = Selects the element that is the last sibling of its type in a list of children of its parent element.
+ :only-of-type = Selects the element that has a parent element and whose parent element has no other children element of the same type
+ :nth-of-type(n) = Selects the element that is the nth sibling amongst its peers of the same type within their parent.
+ :nth-last-of-type(n) = Selects the element that is the nth sibling amongst its peers of the same type, counting from the last
+ :empty = Selects the element that has no children at all (including text nodes).
+ :not(n) = Called the negation pseudo-class, selects elements that are not of the type supplied by the argument(n).
+
+DOM (Document Object Model)
+ - The Document Object Model is a platform- and language-neutral interface that will allow programs and scripts to
+   dynamically access and update the content, structure and style of documents.
+
+pseudo-elements
+ ::first-letter - it is used to select the first letter of a text of an element.
+ ::first-line - it is used to select the first line of a text of an element.
+ ::before - it is used to insert some content before the content of an element.
+ ::after - it is used to insert some content after the content of an element.

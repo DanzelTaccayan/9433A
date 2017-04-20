@@ -1,0 +1,42 @@
+Client Side Scripting
+
+JAVASCRIPT
+  - C-based language
+
+1. externally linked script
+	ex. <script type="text/javascript" src='script.js'></script>
+2. embedded script
+	ex. console.log(); - inside function and global
+3. inline script
+	executed with onclick(), oncharge, onload, etc.
+
+defer attribute -  cannot execute while still fetching scripts
+asynchronous - asynchronous loading; can execute without waiting for other scripts to be fetched
+
+<variable> 
+	-textcontent = 'hello'
+	-innertext = 'hi' - ignores markup
+	-innerHTML = hi <em> there </em> - content of tags
+	-outerHTML = includes the element html; shoukd be a defined attribute
+	-h.title = h['title'] - associate array as a string
+
+custom element 
+ 	h.data-extra x
+	h.setAttribute('data-extra','value')
+	h.getAttribute
+
+Defined by DOM
+
+document
+	-doctype
+	-html
+	    -head
+		-title
+	    -body
+		-class
+
+nextSibling - horizontal, lateral
+
+
+
+

@@ -1,0 +1,68 @@
+Javascript - imperative programming; object-oriented
+variables - dynamic typing; defacto language for web 
+datatype - denotes the value of the variable
+
+function - procedural abstraction
+var - if declared outside the function, becomes the window/global object
+    - cannot be used to declare block local variables
+    - if declared inside a function; it will be used for the functionality
+
+const - same as "let"
+      - you cannot reassign a constant; should have a value
+
+let - it is not associated on the global context even if declared outside
+    - locally/block scope
+
+Two categories:
+-simple/primitive
+-structured/reference/object types
+
+*simple/primitive
+1.booelan : 'truthy', 'falsy' - null strings
+	-flags
+	-condition
+	-loops
+
+2.numbers: typeOf number
+	e - exponent (1.e5)
+	x - hexa (0x101)
+	b - binary (0b101)
+	octal - (0101)
+
+3. strings: 's' / "s"
+	"can't" -> 'can\'t'
+	"can
+	 t"   -> 'can\nt'
+	can have multiple lines
+
+4.Undefined : no value 
+
+5.null: doesn't point to a valid object
+
+
+String interpolation:
+a = 100
+100
+`price: ${a}` = "price:100"
+
+
+*structured types
+ - core javascript object
+ - wrapper classes
+
+1.boolean 
+2. number
+	n = 0/0
+	value = NaN
+	   1/0 = Infinity
+          -1/0 = - Infinity
+
+3.String - string literals
+	String.prototype.reverse = function(){ <- extending classes to js
+	this.split('').reverse().join();
+         ^
+         |
+        return current string
+
+    
+

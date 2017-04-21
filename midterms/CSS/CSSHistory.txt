@@ -1,0 +1,6 @@
+
+History of CSS (Cascading Style Sheet)
+
+CSS (Cascading Style Sheet) is standardized by the W3C like HTML. It is an open, independent and freely usable standard. Its rules is done according to W3C rules. It comes in different versions. CSS1 was released in 1996 and was republished with corrections in 1999. CSS2 appeared on 1998 and is built on CSS1. It adds support for different output media. The latest CSS is the CSS3, it is currently in development and will be split up in modules. 
+
+The idea of having CSS was to separate the design and content of a website. One good thing about CSS is that when you changes the how it is presented, you only need one stylesheet to be able to apply it and to affect all pages. CSS stylesheets are an immediate addition to HTML. It is a language to be able to define format properties of HTML or XML tags.

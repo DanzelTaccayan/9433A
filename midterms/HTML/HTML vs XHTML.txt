@@ -1,0 +1,63 @@
+XHTML
+- XHTML simply stands for Extensible Hypertext Markup Language.
+- XHTML is way stricter than HTML
+- XHTML elements must be properly nested, should be closed and is in lowercase. The document of XHTML should have atleast one root element.
+- XHTML is an application of XML (Extensible Markup Language) standards.
+
+HTML
+- HTML simple stands for Hypertext Markup Language.
+- HTML is an application of SGML(Standard Generalized Markup Language) standards.
+- The document of HTML is defined under the document type definition.
+- HTML is the main markup language in creating web pages.
+
+HTML vs XHTML
+Based on Type of Format:
+HTML: Document File Format
+
+XHTML: Markup Language
+Filename Extension:
+HTML: .html and .htm
+
+XHTML: .html, .htm, .xml, .xht and .xhtml
+Based on Internet Media Type:
+HTML: text/html
+
+XHTML: application/xhtml+xml
+
+
+
+Based on Function:
+HTML: The webpage is written in html form
+
+XHTML: It is stricter and is in xml-based form
+Based on Nature:
+HTML: It is a flexible framework which requires lenient HTML specific parser
+
+XHTML: It needed to be parsed with the standard XML parsers.
+Different Versions:
+HTML: HTML 2, 3.2, 4 and 5.
+
+XHTML: XHTML 1, 1.1, 2 and 5
+Where to put the Content:
+HTML: The contents of HTML should be put on the body element.
+
+XHTML: The content of XHTML should be put on blocks.
+Based on Case Sensitivity:
+HTML: It is not case sensitive whether or not it is in upper or lowercase in elements and others.
+
+XHTML: It is case sensitive and it should be in lowercase.
+Based on putting of attributes:
+HTML: The attributes may or may not have quotes.
+
+XHTML: The attributes should have quotes or is mandatory since XHTML is strict.
+Based on the Structure of the Elements:
+HTML: The structure of the elements may or may not be followed since it has no hard rules to follow.
+
+XHTML: The structure of the elements should and must always be followed.
+
+
+
+References:
+- https://www.w3schools.com/html/html_xhtml.asp
+- http://www.diffen.com/difference/HTML_vs_XHTML\
+- http://readanddigest.com/difference-between-html-and-xhtml/

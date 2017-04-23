@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang ='en'>
+<head>
+	<meta charset="UTF-8">
+	<title>CSS</title>
+</head>
+<body>
+	<header>
+	</header>
+	<nav>
+	</nav>
+
+	<main>
+		<section>
+			<h2>History of CSS (Cascading Style Sheet)</h2>
+			<ul>
+			<li><h3>1990</h3> - The separation of document structure from the document's layout had been a goal of HTML from its inception.
+			<li><h3>1992</h3> - Pei Wei developed a browser called Viola, which had its own style sheet language.
+			<li><h3>1994</h3> - Hakon Wium Lie works at CERN - the cradle of the Web - and the Web is starting to be used as a platform for electronic publishing.
+			Hakon saw the need for a style sheet language for the Web.CSS (Cascading Style Sheet) is standardized by the W3C like HTML.</li>
+			<li><h3>1996</h3> - CSS1 was released</li>
+			<li><h3>1998</h3> - CSS2 appeared and is built on CSS1. It adds support for different output media.</li>
+			<li><h3>1999</h3> - CSS1 was republished with corrections.</li> 
+			
+			<p>The W3C working group has members (around 15 in 1999, around 115 in 2016) who are delegated by the companies and organizations that are members of W3C. They come from all over the world, so the meetings are usually over the phone, and last about an hour every week.
+			About four times each year, they meet somewhere in the world.</p>
+		</section>
+
+		<section>
+			<h2> What is CSS (Cascading Style Sheet)? </h2>
+			<p>
+				- The idea of having CSS was to separate the design and content of a website.
+			One good thing about CSS is that when you changes the how it is presented, you only need one stylesheet to be able to apply it and to affect all pages.
+			CSS stylesheets are an immediate addition to HTML. It is a language to be able to define format properties of HTML or XML tags.CSS had one feature that distinguished it from all the others: 
+			It took into account that on the Web, the style of a document couldn't be designed by either the author or the reader on their own, but that their wishes had to be combined, or cascaded, in some way;
+			and, in fact, not just the reader's and the author's wishes, but also the capabilities of the display device and the browser.
+			</p>
+
+			<h2>CSS Preprocessors</h2>
+			<h3>What are CSS Preprocessors?</h3>
+			<p>
+				- Pre-processors extend CSS with variables, operators, interpolations, functions, mixins and many more other usable assets. 
+				SASS, LESS and Stylus are the most well known. Pre-processors, with their advanced features, helped to achieve writing reusable, maintainable and extensible codes in CSS.
+				By using a pre-processor, you can easily increase your productivity, and decrease the amount of code you are writing in a project.
+			</p>
+
+			<h4>Sass (Syntactically Awesome StyleSheets)</h4>
+			<p>Sass is an extension of CSS that adds power and elegance to the basic language.
+			It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax.
+			Sass helps keep large stylesheets well-organized, and get small stylesheets up and running quickly, particularly with the help of the Compass style library.</p>
+			
+			<h4>Less</h4>
+			<p>Less.js, (usually referred to simply as “Less”), is one of the most popular CSS preprocessors, and is probably currently the strongest competitor to Sass.
+			Less extends CSS syntax thoroughly with mixins, variables, nested style rules, and even rule-set looping (which behaves similarly to for loops in a programming language).</p>
+			
+			<h4>Stylus</h4>
+			<p> Stylus is another one that’s been a strong competitor to Sass, and is a feature-rich extension of CSS. 
+			It has over 60 custom functions including saturation(), which lets you mathematically adjust the saturation of a CSS color.</p>
+			
+			<h3>Features of SASS, LESS and Stylus:</h3>
+			<ul>
+			<li><h4>Variables:</h4>
+			<p>Variables in SASS start with $ sign, in LESS @ sign and no prefix in Stylus.
+			Both in SASS and LESS, values are assigned with colon (:), and with equals sign (=) in Stylus.</p>
+			<img src="CSS images/Variables.png" /></li>
+			<li><h4>Nesting:</h4>
+			<p> Nesting provides a visual hierarchy as in the HTML and increases the readability.</p>
+			<img src="CSS images/Nesting.png" /></li>
+			<li><h4>Mixins:</h4>
+			<p> Mixins are set of definitions that compiles according to some parameters or static rules.
+			With them you can easily write cross-browser background gradients or CSS arrows etc.</p>
+			<img src="CSS images/Mixins.png" /></li>
+			<li><h4>Extends:</h4>
+			<p> Extends are useful for sharing a generic definition with selectors rather than copying it in. 
+			All extended selectors are grouped in compiled CSS. SASS extends every instance of extended selector that includes its child selectors and inherited properties. 
+			However, in LESS you can select every instance of extended selector by adding "all" attribute to extend method or you can select only the main instance.</p>
+			<img src="CSS images/Extends.png" /></li>
+			<li><h4>Color Operations:</h4>
+			<p> All three pre-processors have color functions to play with colors. </p>
+			<img src="CSS images/ColorOperations.png" /></li>
+			<li><h4>If/Else Statements:</h4>
+			<p> Control directives and expressions help to build similar style definitions according to matched conditions or variables. 
+			SASS and Stylus support normal if/else conditionals. But in LESS, you can achieve this with CSS Guards. </p>
+			<img src="CSS images/Ifelse.png" /></li>
+			<li><h4>Loops:</h4>
+			<p> Loops are useful when iterating through an array or creating a series of styles as in grid widths. 
+			LESS is using CSS Guards and recursive mixins for looping.</p>
+			<img src="CSS images/Loops.png" /></li>
+			<li><h4>Math:</h4>
+			<p> Math operations can be used for standard arithmetic or unit conversions. SASS and Stylus support arithmetic between different units.
+			In addition to simple math, pre-processors also have complex math support such as ceiling, rounding, getting min or max value in a list etc.</p>
+			<img src="CSS images/Math.png" /></li>
+		</section>
+
+		<section>
+			<h2>CSS Selectors</h2>
+				<h3>Simple Selectors</h3>
+					<p> structure used as a condition in a CSS rule to determine which elements in the document tree are matched by the selector.</p>
+				<h3>Simple Selector Syntax:</h3>
+					<p>chain of one or more sequences of simple selectors separated by combinators with one pseudo-element possibly appended to the last sequence.<p>
+					<p>Example: "div#abc>p.xy[title]+span:last-of-type::after"<br/>
+						where:<br/>
+						div = type<br/>
+						#abc = ID<br/>
+						>,+ = combinators<br/>
+						.xyz = class<br/>
+						:last-of-type, :: after  = pseudo element<br/><p>
+					<p>	
+					<h5>Type selector</h5> - type of element you are targetting
+						ex: p { } - p is the type selector<br/>
+       
+					<h5>Universal selector</h5> -  represented by the *.
+						ex: * { } - all element will be affected<br/>
+           
+					<h5>Attribute selector</h5>
+						[attr]<br/>
+						[attr^=value] - beginning<br/>
+						[attr$=value] - end<br/>
+						[attr*=value] - anywhere<br/>
+						[attr=value] - exact match<br/>
+						[attr~=value] - one value in a set of space-separated value<br/>
+						[attr|=value] - targets the lang attribute<br/>
+            
+					<h5>Class selector</h5> - represented by a period and a class name
+						ex: .x{ }<br/>
+        
+					<h5>ID selector</h5> - # sign and id value
+						ex: #x{ }<br/>
+        
+				<h3>Pseudo Class Selectors</h3>
+					<h4>Dynamic Pseudo Class</h4>
+						<h5>Link Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:link</strong> - used to select unvisited links.</p></li>
+							<li><p><strong>:visited</strong> - it is used to select visited links.</p></li>
+							</ul>
+						<h5>User Action Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:hover</strong> - used to change a specific element when hovered.</p></li>
+							<li><p><strong>:active</strong> - used to select and style active links.</p></li>
+							<li><p><strong>:focus</strong> - used to select element that has focus.</p></li>
+							</ul>
+						<h5>Target Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:target</strong> - target element on link.</p></li>
+							</ul>
+						<h5>Language Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:lang()</strong> - used to target languange attribute.</p></li>
+							</ul>
+						<h5>UI Element State Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:enabled</strong> - used to enable elements mostly on form elements.</p></li>
+							<li><p><strong>:disabled</strong> - used to disable elements mostly on form elements.</p></li>	
+							<li><p><strong>:checked</strong> - used to change the styles of checked <option> elements.</p></li>	
+							<li><p><strong>:indeterminate</strong> - used to change the styles of neither checked nor unchecked &lt option&gt elements.</p></li>
+							</ul>
+
+						<h5>Structural Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:root</strong> - targets the root element.</p></li>
+							<li><p><strong>:first-child</strong> - targets the first-child of its parent.</p></li>	
+							<li><p><strong>:last-child</strong> - targets any element that is the last-child of its parent.</li>	
+							<li><p><strong>:only-child</strong> - targets any element that is the only-child of its parent.</p></li>
+							<li><p><strong>:nth-child()</strong> - Selects the element that is the nth child of its parent.</p></li>
+							<li><p><strong>:nth-last-child()</strong> - Selects the element  that is the nth child of its parent counting from the last, or reverse of :nth-child(n).</p></li>	
+							<li><p><strong>:first-of-type</strong> - Selects the element that is the first sibling of its type in a list of children of its parent element.</li>	
+							<li><p><strong>:last-of-type</strong> - Selects the element that is the last sibling of its type in a list of children of its parent element.</li>
+							<li><p><strong>:only-of-type</strong> - Selects the element that has a parent element and whose parent element has no other children element of the same type.</li>
+							<li><p><strong>:nth-of-type()</strong> - Selects the element that is the nth sibling amongst its peers of the same type within their parent.</li>	
+							<li><p><strong>:nth-of-last-type()</strong> - Selects the element that is the nth sibling amongst its peers of the same type, counting from the last.</li>	
+							<li><p><strong>:empty</strong> - Selects the element that has no children at all (including text nodes).</li>						
+							</ul>	
+
+						<h5>Negation Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:not(n)</strong> - selects elements that are not of the type supplied by the argument(n).</p></li>	
+							</ul>
+						
+						<h5>Pseudo Elements</h5>
+							<ul>
+							<li><p><strong>::first-letter</strong> - it is used to select the first letter of a text of an element.</p></li>
+							<li><p><strong>::first-line </strong> - it is used to select the first line of a text of an element.</p></li>	
+							<li><p><strong>::before</strong> - it is used to insert some content before the content of an element.</p></li>	
+							<li><p><strong>::after</strong> - it is used to insert some content after the content of an element.</p></li>							
+							</ul>
+			</section>
+
+			<section>
+			<h3>CSS Declarations</h3>
+				<p>Declaration consists of property name and a value, separated by a colon (:); whitespace characters can appear around any of theses elements. A declaration appears within the declaration block.</p><br/>
+				<img src="CSS images/Declaration1.png" />
+				
+				
+				<p>There’s a large collection of property names that we can use in our style rules.
+				This are syntactically called CSS identifiers. This are the labels usde in property names, keyword values , and at-rule names, as well as in element type names, classes, and IDs within selectors. </p>
+				<h4>Values can be expressed as :</h4>
+				<ul>
+				<li>Keywords:
+					<p>It is an identifier and it mus not be surrounded by quotation marks. <br/>
+						Example:<br/>
+						/  background-color: #000;<br/>
+						X  background-color: “yellow”;<br/>
+					</p>
+				</li>
+				<li>Lengths and Units :
+					<p>It is a measurement containing number and units only. White spaces cannot appear in between.
+						The numeric value can be either an integer or a real number. 
+						If the numeric value is 0, the unit can be omitted (after all, zero pixels is the same measurement as zero millimeters).
+						But if the value isn’t zero, the unit must be specified.The units can be either relative or absolute, but absolute is used and is useful only if the the physical properties of the output medium are known.<br/>
+					</p>
+				<img src="CSS images/Declaration2.png" />
+					<p>The em and ex units depends on the font size that’s applied to the element. 
+						1em - defined as being equal to the font size. When font is specified in em, 1em is equal to the inherited font size. In font-size:1.2 em; makes the text 1.2 times larger than the parent element’s text.<br/>
+						ex unit = height of the current font, normally the height of lowercase x.<br/>
+					</p>
+				<img src="CSS images/Declaration3.png" />
+				</li>
+				<li>Percentages:
+					<p>It is an integer, or a decimal number that is followed by percentage character (%). There should be no white spaces between the number and the %.<br/>
+						Example:<br/>
+					</p>
+				<img src="CSS images/Declaration4.png" />		
+					<p>Interpretation of percentage values is unexpected ; for example, vertical padding refers to a percentage of the width—not height—of the containing block.<br/>
+						Color values can be represented in several different ways in CSS.
+					</p>
+				</li>
+				<li>Hexadecimal Notation:
+					<p>Hexadecimal RGB (red, green, blue) notation is the most common format, consisting of # character followed by three or six hexadecimal digits.
+						Six digits - first two are red, second pair represents green, and the last pair represents blue.
+					</p>
+				<img src="CSS images/Declaration5.png" />					
+				</li>
+				<li>Decimal Notation:
+					<p>RGB - arguments are red, green, and blue. Valid range are from 0-255 which is equal to 0% - 100%.<br/>
+						RGBA - red, green, blue, and alpha opacity that accepts value from 0 to 1.<br/>
+						HSL - hue, saturation, and luminosity.<br/>
+						HSLA -  hue, saturation, luminosity, and alpha.<br/>
+					</p>
+				<img src="CSS images/Declaration6.png" />
+				<img src="CSS images/Declaration7.png" />	
+				<img src="CSS images/Declaration8.png" />					
+				</li>
+				<li>Numbers:
+					<p>Specified as integer or a real number and can have initial - or + to indicate its sign. <br/>
+					</p>
+				<img src="CSS images/Declaration9.png" />				
+				</li>
+				<li>Strings:
+					<p>Must be enclosed in double or single quotes to be identified as string value. <br/>
+					</p>
+				<img src="CSS images/Declaration10.png" />	
+					<p>But in doing your webpage, most of the time contents are placed in the HTML file.</p><br/>
+				</li>
+				<li>URIs:
+					<p>Expressed using the following syntax: url(URI).<br/>
+					</p>
+				<img src="CSS images/Declaration11.png" />	
+				</li>
+				</ul>
+
+			<h3>CSS Rule of Precedence</h3>
+				<h4>By origin and importance</h4>
+					<ul>
+					<li>user agent important declarations</li>
+					<li>user important declarations</li>
+					<li>author important declarations</li>
+					<li>author normal declarations</li>
+					<li>user normal declarations</li>
+					<li>user agent normal declarations</li>
+					</ul>
+					
+				<h4>By Specificity</h4>
+					<ul>
+					<li>inline style (most specific of all)</li>
+					<li>number of id selectors<br/>
+						ex: div {} = less priority<br/>
+						div #x {} = higher priority<br/>
+					</li>
+					<li>number of class selectors, attribute selectors and pseudo-classes<br/>
+					ex: p .z {} less specific<br/>
+					p #z {} most specific<br/>
+					p {} least specific<br/>
+					</li>
+					<li>number of type selectors and pseudo-elements (THE MORE TYPE SELECTORS, THE HIGHER THE PRIORITY)</li>
+					<li>!important overrides</li>
+					</ul>
+				
+				<h4>By order</h4>
+					<ul>
+					<li>the last declaration wins</li>
+					<li>when they are tied</li>
+					</ul>
+			</section>
+			<section>
+			<h3>Author Styles</h3>
+				<ul>
+				<li>external stylesheets (recommended)</li>
+				<li>embedded styles</li>
+				<li>inline styles – quick fix</li>
+				</ul>
+			</section>
+			
+			<section>
+			<h3>CSS Statements</h3>
+				<ul>
+				<li>@ at-rules</li>
+				<li>@charset</li>
+				<li>@import</li>
+				<li>@namespace</li>
+				<li>@document</li>
+				<li>@font-face</li>
+				<li>@keyframes - for animation</li>
+				<li>@media</li>
+				<li>@supports</li>
+				</ul>
+			</section>	
+			
+	</main>
+
+</body>
+</html>

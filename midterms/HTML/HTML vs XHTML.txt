@@ -58,6 +58,8 @@ XHTML: The structure of the elements should and must always be followed.
 
 
 References:
-- https://www.w3schools.com/html/html_xhtml.asp
-- http://www.diffen.com/difference/HTML_vs_XHTML\
-- http://readanddigest.com/difference-between-html-and-xhtml/
+(n.d.). Retrieved April 22, 2017, from https://www.w3schools.com/html/html_xhtml.asp
+
+HTML vs XHTML. (n.d.). Retrieved April 22, 2017, from http://www.diffen.com/difference/HTML_vs_XHTML
+
+Difference between HTML and XHTML. (2013, December 05). Retrieved April 22, 2017, from http://readanddigest.com/difference-between-html-and-xhtml/

@@ -1,26 +1,45 @@
 REEFERENCES:
 
 1. History of HTML:
- - http://www.w3c-html.com/html-history.html
+ - W3C-HTML.com. (n.d.). Retrieved April 23, 2017, from http://www.w3c-html.com/html-history.html
 
 2. History of CSS:
- - https://www.w3.org/Style/CSS20/history.html
- - http://amyhissom.com/HTML5-CSS3/history.html
+ - (n.d.). Retrieved April 23, 2017, from https://www.w3.org/Style/CSS20/history.html
+ - (n.d.). Retrieved April 23, 2017, from http://amyhissom.com/HTML5-CSS3/history.html
  
 3. CSS Declarations
- - http://reference.sitepoint.com/css/declarations
+ - Declarations, Properties, and Values. (n.d.). 
+	Retrieved April 23, 2017, from http://reference.sitepoint.com/css/declarations
 
 4. Meaning of Javascript
- - https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript
+ - About JavaScript. (n.d.). Retrieved April 23, 2017, 
+	from https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript
 
 5. Meaning of Less
- - http://lesscss.org/features/
+ - Team, T. C. (n.d.). Language Features. Retrieved April 23, 2017, from http://lesscss.org/features/
 
 6. Meaning of SASS
- - http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+ - Team, T. C. (n.d.). Language Features. Retrieved April 23, 2017, from http://lesscss.org/features/
 
 7. History of Javascript
  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 
 8. Meaning of preprocessors and difference of the three main preprocessors
- - https://htmlmag.com/article/an-introduction-to-css-preprocessors-sass-less-stylus	
+ - A re-introduction to JavaScript (JS tutorial). (n.d.). Retrieved April 23, 2017, 
+	from https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
+9. - JavaScript data types and data structures. (n.d.). Retrieved April 23, 2017,
+	 from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+
+10. - JavaScript basics. (n.d.). Retrieved April 23, 2017, 
+	 from https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+
+11. - Array. (n.d.). Retrieved April 23, 2017,
+	 from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+12. - Object. (n.d.). Retrieved April 23, 2017, 
+	 from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+13. Functions. (n.d.). Retrieved April 23, 2017, 
+	 from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+	

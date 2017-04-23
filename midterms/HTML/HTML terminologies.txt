@@ -1,0 +1,38 @@
+HTML Terminologies
+Angle Brackets
+-	These are the character that is used to enclose all HTML tags.
+Attributes
+-	This are the things that are added in the html tags which are used to add or change the appearance of an element.
+Body
+-	This is the main part of an html document where you will be putting contents and other html tags that you will be using in creating your html.
+Element
+-	These are the html tags which describes special objects like paragraphs, lines, list and more. It usually starts and ends with a tag.
+FTP
+-	Stands for File Transfer Protocol. This is a method that will send or will receive a file between computers using a network or an internet.
+Header
+-	The header is the first part on the top part of an html document.
+Home page
+-	The home page is the first or starting page of a website when you visit it for the first time.
+HTML
+-	Stands for Hypertext Markup Language and describes a structure of a web page.
+HTML editors
+-	These are the editors that will make your creation of your web page easier to follow and use.
+Syntax
+-	These are the rules to follow when we use to perform tasks.
+Tags
+-	These are used to all texts that will be added that has a meaning in html.
+URI
+-	Stands for Uniform Resource Identifier. This is used to identify resource.
+URL
+-	Stands for Uniform Resource Locator which is used to locate the file of your html and others.
+Web Browser
+-	This is where we display our web pages.
+Web server
+-	This is where we store our web pages.
+
+
+
+References:
+Common HTML terms - ScriptingMaster. (n.d.). Retrieved April 22, 2017, from http://www.bing.com/cr?IG=2F05ECAEDC994F2EAEE6A1A1C94FABE8&CID=09E9ECDA987460E40990E6B799E4616E&rd=1&h=Silme6ulJ9KoNG3CeCuQBYX-yWf1cKE62CM3pEtnt0g&v=1&r=http%3a%2f%2fwww.scriptingmaster.com%2fhtml%2fHTML-terms-glossary.asp&p=DevEx,5059.1
+
+HTML Terms - comptechdoc.org. (n.d.). Retrieved April 22, 2017, from http://www.bing.com/cr?IG=601ED9FA05454BC58E94A84144766212&CID=1477120CFF6D63A517051861FEFD623E&rd=1&h=VQWQbyp-5wKp9iG9brye-qdZN1Be0XRzKO0wxWujLHY&v=1&r=http%3a%2f%2fwww.comptechdoc.org%2findependent%2fweb%2fhtml%2fguide%2fhtmlterms.html&p=DevEx,5063.1

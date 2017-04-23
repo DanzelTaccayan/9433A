@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>WEBTEK 2017</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/hover.zoom.js"></script>
+    <script src="assets/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="index.html"><h1>Web Systems and Technologies</h1></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="mid.html"><h1>Back</h1></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	
+	
+	<!-- +++++ Projects Section +++++ -->
+	
+	<div class="container pt">
+		<div class="row mt centered">	
+			<div class="col-lg-8 col-lg-offset-2">
+				<p><img class="img-responsive" src="assets/img/portfolio/writing.png" alt=""></p>
+			</div>
+		</div><!-- /row -->
+        <div class="row mt">
+			<div class="col-lg-6 col-lg-offset-3 centered">
+	
+		<section>
+
+				<h3>Simple Selectors</h3>
+					<p> structure used as a condition in a CSS rule to determine which elements in the document tree are matched by the selector.</p>
+				<h3>Simple Selector Syntax:</h3>
+					<p>chain of one or more sequences of simple selectors separated by combinators with one pseudo-element possibly appended to the last sequence.<p>
+					<p>Example: "div#abc>p.xy[title]+span:last-of-type::after"<br/>
+						where:<br/>
+						div = type<br/>
+						#abc = ID<br/>
+						>,+ = combinators<br/>
+						.xyz = class<br/>
+						:last-of-type, :: after  = pseudo element<br/><p>
+					<p>	
+					<h5>Type selector</h5> - type of element you are targetting
+						ex: p { } - p is the type selector<br/>
+       
+					<h5>Universal selector</h5> -  represented by the *.
+						ex: * { } - all element will be affected<br/>
+           
+					<h5>Attribute selector</h5>
+						[attr]<br/>
+						[attr^=value] - beginning<br/>
+						[attr$=value] - end<br/>
+						[attr*=value] - anywhere<br/>
+						[attr=value] - exact match<br/>
+						[attr~=value] - one value in a set of space-separated value<br/>
+						[attr|=value] - targets the lang attribute<br/>
+            
+					<h5>Class selector</h5> - represented by a period and a class name
+						ex: .x{ }<br/>
+        
+					<h5>ID selector</h5> - # sign and id value
+						ex: #x{ }<br/>
+        
+				<h3>Pseudo Class Selectors</h3>
+					<h4>Dynamic Pseudo Class</h4>
+						<h5>Link Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:link</strong> - used to select unvisited links.</p></li>
+							<li><p><strong>:visited</strong> - it is used to select visited links.</p></li>
+							</ul>
+						<h5>User Action Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:hover</strong> - used to change a specific element when hovered.</p></li>
+							<li><p><strong>:active</strong> - used to select and style active links.</p></li>
+							<li><p><strong>:focus</strong> - used to select element that has focus.</p></li>
+							</ul>
+						<h5>Target Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:target</strong> - target element on link.</p></li>
+							</ul>
+						<h5>Language Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:lang()</strong> - used to target languange attribute.</p></li>
+							</ul>
+						<h5>UI Element State Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:enabled</strong> - used to enable elements mostly on form elements.</p></li>
+							<li><p><strong>:disabled</strong> - used to disable elements mostly on form elements.</p></li>	
+							<li><p><strong>:checked</strong> - used to change the styles of checked <option> elements.</p></li>	
+							<li><p><strong>:indeterminate</strong> - used to change the styles of neither checked nor unchecked &lt option&gt elements.</p></li>
+							</ul>
+
+						<h5>Structural Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:root</strong> - targets the root element.</p></li>
+							<li><p><strong>:first-child</strong> - targets the first-child of its parent.</p></li>	
+							<li><p><strong>:last-child</strong> - targets any element that is the last-child of its parent.</li>	
+							<li><p><strong>:only-child</strong> - targets any element that is the only-child of its parent.</p></li>
+							<li><p><strong>:nth-child()</strong> - Selects the element that is the nth child of its parent.</p></li>
+							<li><p><strong>:nth-last-child()</strong> - Selects the element  that is the nth child of its parent counting from the last, or reverse of :nth-child(n).</p></li>	
+							<li><p><strong>:first-of-type</strong> - Selects the element that is the first sibling of its type in a list of children of its parent element.</li>	
+							<li><p><strong>:last-of-type</strong> - Selects the element that is the last sibling of its type in a list of children of its parent element.</li>
+							<li><p><strong>:only-of-type</strong> - Selects the element that has a parent element and whose parent element has no other children element of the same type.</li>
+							<li><p><strong>:nth-of-type()</strong> - Selects the element that is the nth sibling amongst its peers of the same type within their parent.</li>	
+							<li><p><strong>:nth-of-last-type()</strong> - Selects the element that is the nth sibling amongst its peers of the same type, counting from the last.</li>	
+							<li><p><strong>:empty</strong> - Selects the element that has no children at all (including text nodes).</li>						
+							</ul>	
+
+						<h5>Negation Pseudo Class</h5>
+							<ul>
+							<li><p><strong>:not(n)</strong> - selects elements that are not of the type supplied by the argument(n).</p></li>	
+							</ul>
+						
+						<h5>Pseudo Elements</h5>
+							<ul>
+							<li><p><strong>::first-letter</strong> - it is used to select the first letter of a text of an element.</p></li>
+							<li><p><strong>::first-line </strong> - it is used to select the first line of a text of an element.</p></li>	
+							<li><p><strong>::before</strong> - it is used to insert some content before the content of an element.</p></li>	
+							<li><p><strong>::after</strong> - it is used to insert some content after the content of an element.</p></li>							
+							</ul>
+			</section>
+
+
+			</div>
+		</div>
+	</div><!-- /container -->
+	
+	
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>Members</h4>
+					<p>
+						Caballar, Randall<br/>
+						Dasmarinas, Walter<br/>
+						Taccayan, Danzel<br/>
+                        Yu, Rommel<br/>
+                        Malabanan, Coleen
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<br><br><br><br><p>Copyright - webtech lecture 2017</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>About Us</h4>
+					<p>This page is meant for educational purposes for the School of Computing and Information Sciences, Web Systems and Technologies, 2nd Semester SY 2016-2017</p>
+				</div><!-- /col-lg-4 -->
+			
+			</div>
+		
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

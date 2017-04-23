@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang ='en'>
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Rule of Precedence</title>
+</head>
+<body>
+	<header>
+		<h1>CSS Rule of Precedence</h1>
+	</header>
+	<nav>
+	</nav>
+
+	<main>
+	
+			<section>
+
+				<h4>By origin and importance</h4>
+					<ul>
+					<li>user agent important declarations</li>
+					<li>user important declarations</li>
+					<li>author important declarations</li>
+					<li>author normal declarations</li>
+					<li>user normal declarations</li>
+					<li>user agent normal declarations</li>
+					</ul>
+					
+				<h4>By Specificity</h4>
+					<ul>
+					<li>inline style (most specific of all)</li>
+					<li>number of id selectors<br/>
+						ex: div {} = less priority<br/>
+						div #x {} = higher priority<br/>
+					</li>
+					<li>number of class selectors, attribute selectors and pseudo-classes<br/>
+					ex: p .z {} less specific<br/>
+					p #z {} most specific<br/>
+					p {} least specific<br/>
+					</li>
+					<li>number of type selectors and pseudo-elements (THE MORE TYPE SELECTORS, THE HIGHER THE PRIORITY)</li>
+					<li>!important overrides</li>
+					</ul>
+				
+				<h4>By order</h4>
+					<ul>
+					<li>the last declaration wins</li>
+					<li>when they are tied</li>
+					</ul>
+
+
+			</section>
+
+	</main>
+
+</body>
+</html>

@@ -9,3 +9,18 @@ REEFERENCES:
  
 3. CSS Declarations
  - http://reference.sitepoint.com/css/declarations
+
+4. Meaning of Javascript
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript
+
+5. Meaning of Less
+ - http://lesscss.org/features/
+
+6. Meaning of SASS
+ - http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+
+7. History of Javascript
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+
+8. Meaning of preprocessors and difference of the three main preprocessors
+ - https://htmlmag.com/article/an-introduction-to-css-preprocessors-sass-less-stylus	

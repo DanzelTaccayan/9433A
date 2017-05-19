@@ -1,0 +1,108 @@
+Webtech Lec April 18, 2017
+Finals
+
+JSP - Java Server Page
+
+- java
+- php
+- node.js
+- asp.net
+
+April 28, 2017
+My netbeans
+servlet
+
+@override
+
+- getReader()
+- getInputStrean()
+- getQueryString()
+- getParameter(input String)
+
+*Request Dispatching
+
+Request Dispatcher
+MVC Frameworks
+M- Model - data
+V- View -
+C- Control - coordinate
+
+April 29
+JSP directives
+<%--        --%> - JSP comment
+                       - cannot be seen when compiled
+
+<!---         -----> - html comment
+                       - is generated when compiled
+
+El expression
+express Language
+
+paramValues - multiple values/ all values
+
+May 2
+Session Handling
+
+cookies
+-defined as RFC
+
+non-persistent cookies
+- cookies that are present when browsers are still open.
+
+May 5
+php-server-side
+- .php file
+
+<? php Hello World! ?> - paragraph type for php
+                                   - parameter
+
+php.net
+$ - sign for declaring data type
+
+array here are associative objects
+
+SuperGlobal
+-can be used or accessed anywhere in the script
+>$GLOBALS
+>$_GET
+>$_POST
+>$_FILES
+>$_COOKIES
+>$_SESSION
+>$_REQUEST
+>$_ENV
+>$_SERVER
+
+$key = $value -> echo "<p> $ key = $value </p>"
+
+Request header
+header function
+header('location: shop.php')
+
+May 9
+Javascript as a server-side
+Javascript as a client-side
+
+node js
+popular environment
+
+MEAN stack
+M - mongoDB
+E - expression
+A -  angular
+N -  node js
+
+BSON
+-Binary JSON
+
+focusing on node js
+- use to create desktop application
+
+function handler (request, response){
+response.end("Hello!")
+- to end the parameter
+
+fs - File System
+   - read and write the system
+
+var fs = require('fs');

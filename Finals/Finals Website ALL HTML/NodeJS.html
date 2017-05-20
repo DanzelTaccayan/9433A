@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang ='en'>
+<head>
+	<meta charset="UTF-8">
+	<title>What is Node JS</title>
+</head>
+<body>
+<nav></nav>
+<header><h1>Node JS</h1></header>
+<main>
+	<section>
+		<h2>MEAN</h2>
+		<p> A full stack javascript framework consists of the following:</p>
+		<ul>
+			<li>Monggo</li>
+			<li>Express Framework</li>
+			<li>Angular JS</li>
+			<li>Node JS</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>What is Node JS</h2>
+		<p>Node JS is a server side javascript environment. It is event drivent meaning that when an event occurs you can handle it.To start developing you could go to <a href ="https://nodejs.org/en/"> the Node JS Site</a> and download and install Node JS.</p>
+		<p>npm is the package manager for javascript, and npm starts your dependencies file in Node JS, in which to create a project in Node JS you must first type npm init in the CMD to create a node js file</p>
+	</section>
+	<section>
+		<h2>Why is Node js a server side javascript environment</h2>
+		<p><img alt='showing an image of how a user agent requests from a node js server and how a node js server responds' src="NodeJSReq.png"></p>
+		<p>The image above shows how Node JS handles request, it is a server side javascript environment in a way that it is javascript in the server side meaning that the code in the serverside is made up of javascript and when a user agent requests an HTTP request from the Node JS server, the Node JS serer would respond with an HTTP response.</p>
+	</section>
+	<section>
+		<h2>Node JS Libraries</h2>
+		<p>Node JS libraries are divided into modules(a module is a standalong JS file) and to include one, you could use: require('[name of the module]');</p>
+		<p>Node JS Core library - it is consists of predefined modules that a developer can use without having to download the module before requiring it in a Node JS file. One module that is in the core library of Node JS is HTTP and to include HTTP in your file you could do: var http = require('http');
+		</p>
+		<p>Modules not included in the Core Library - To install modules that are not included in the Core Library you could type <kbd>npm install [name of module]</kbd>. An example is the mysql module which is not in the core library of Node JS</p>
+		<p>Some modules to consider - Node JS also has modules that acts as a framework, an example is the Express framework which is a backend framework which facilitates difficult things(HTTP requests, responds and many more) and it is complimentary with pug(also known as Jade) which is also a Node JS module that is influenced by Haml, what pug does is that it generates html code with its own syntax.</p>
+
+	</section>
+	<section>
+		<h2>Features of Node JS</h2>
+		<p>
+			Node JS is <b>Asynchrounous</b> - it doesn't block IO
+		</p>
+		<p>
+			Node JS supports <b>Callback</b> - the concept of call back is like this: do the function then do something else, when you are finish call my attention.
+		</p>
+		<p>
+			Node JS can <b>chain function calls</b> - an example would be the code :
+			<kbd>request.on('data',function1)</kbd>.
+			What happens on the code is that when a request 'data' has occured the function1 would would be called.
+		</p>
+	</section>
+</main>
+
+</body>
+</html>

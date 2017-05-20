@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang ='en'>
+<head>
+	<meta charset="UTF-8">
+	<title>PHP</title>
+</head>
+<body>
+<header><h1>PHP - Hypertext Preprocessor </h1></header>
+<section>
+	<h2>What is PHP?</h2>
+<p>It is an open source scripting language that is widely used. <abbr title="Hypertext Preprocessor">PHP</abbr> file can contain <abbr title="Hypertext Markup Language">HTML</abbr>, JavaScript, <abbr title="Cascading Style Sheets">CSS</abbr>, and <abbr title="Hypertext Preprocessor">PHP</abbr> code. Scripts are executed on the server and returned to the browser as plain <abbr title="Hypertext Markup Language">HTML</abbr>.</p>
+<p>
+<abbr title="Hypertext Preprocessor">PHP</abbr> can generate dynamic page content, create, open, write,delete and close file on the server. It can add, delete, modify data in your database. It can send and receive cookies and can encrypt data.</p>
+</section>
+
+<section>
+<h2>PHP Tags</h2>
+<p>The opening tag of php is &lt;?php and ending tag is ?&gt; which tells the <abbr title="Hypertext Preprocessor">PHP</abbr> to start and stop  executing the code between them. It allows <abbr title="Hypertext Preprocessor">PHP</abbr> to be embedded in all sort of different document and outside this pair of tags is already ignored by the <abbr title="Hypertext Preprocessor">PHP</abbr>.
+For a pure <abbr title="Hypertext Preprocessor">PHP</abbr> code, it is preferred that closing tags are placed at the end so that there will be no unwanted effects that will buffer while the program is executing.
+</p>
+<img src="PHP1.png" alt="Shows the syntax of a PHP code">
+<img src="PHP2.png" alt="The Changelog of syntax of PHP">
+</section>
+
+<section>
+<h2>Escaping from HTML</h2>
+	<p>Every code outside the <abbr title="Hypertext Preprocessor">PHP</abbr> tag is ignored which allows PHP to have a mixed content. <abbr title="Hypertext Preprocessor">PHP</abbr> can be embedded to an <abbr title="Hypertext Markup Language">HTML</abbr> file.</p>
+	<img src="PHP3.png" alt="How escaping from HTML works">
+	<p>After the <abbr title="Hypertext Preprocessor">PHP</abbr> interpreter hits the closing tag, it will start outputting the code next to it.</p>
+
+<h3> Advanced escaping using conditions</h3>
+<p><kbd>&lt;?php if ($expression == true): ?&gt;</kbd><br>
+This will show if the expression is true.</p>
+
+<p><kbd>&lt;?php else: ?&gt;</kbd><br>
+  Otherwise this will show.
+</p>
+<p><kbd>&lt;?php endif; ? &gt;</kbd><br>
+<abbr title="Hypertext Preprocessor">PHP</abbr> will skip the block where the condition is not met.
+</p>
+
+<h3>PHP Opening and Closing Tags</h3>
+<ol>
+<li>&lt;?php echo 'if you want to serve PHP code in XHTML or XML documents,use these tags'; ? &gt;</li>
+<li>You can use the short echo tag to &lt;?= 'print this string' ? &gt;.
+    It's always enabled in PHP 5.4.0 and later, and is equivalent to
+    &lt;?php echo 'print this string' ? &gt;.</li>
+<li>&lt;? echo 'this code is within short tags, but will only work '.
+            'if short_open_tag is enabled'; ? &gt;</li>
+<li>&lt;script language="php"&gt;
+        echo 'some editors (like FrontPage) don't
+              like processing instructions within these tags';
+    &lt;/script&gt;<br>
+    This syntax is removed in PHP 7.0.0.
+</li>
+<li>&lt;% echo 'You may optionally use ASP-style tags'; %&gt;<br>
+    Code within these tags &lt;%= $variable; %&gt; is a shortcut for this code &lt;% echo $variable; %&gt;<br>
+    Both of these syntaxes are removed in PHP 7.0.0.
+</li>
+</ol>
+</section>
+</body>
+</html>

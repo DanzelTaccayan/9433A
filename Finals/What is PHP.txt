@@ -1,0 +1,4 @@
+What is PHP?
+PHP: Hypertext Preprocessor. It is an open source scripting language that is widely used. PHP file can contain HTML, JavaScript, CSS, and PHP code. Scripts are executed on the server and returned to the browser as plain HTML.
+
+PHP can generate dynamic page content, create, open, write,delete and close file on the server. It can add, delete, modify data in your database. It can send and receive cookies and can encrypt data.

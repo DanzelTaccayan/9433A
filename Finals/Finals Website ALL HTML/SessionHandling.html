@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sessions and Cookies</title>
+</head>
+<body>
+<nav></nav>
+<main>
+	<section>
+		<h2>What are Sessions?</h2>
+		<p>Since <abbr title="Hypertext Transfer Protocol">HTTP</abbr> is a "stateless protocol", it does not know whether the first and second request are related to each other, with the use of Sessions it is possible that the first request can relate to the second request. How?
+		imagine a online shopping application where in you can buy items and it has a shopping cart feature, naturally in an <abbr title="Hypertext Transfer Protocol">HTTP</abbr> transaction, when you put an item in a cart, and you check your cart the item that you have added would be gone, because <abbr title="Hypertext Transfer Protocol">HTTP</abbr> is a stateless protocol, but when the server establishes a session between the requesting client, when the client adds an item to his/her cart and requested client requests to see the cart, the item added would be shown to the user, because with session it would make the <abbr title="Hypertext Transfer Protocol">HTTP</abbr> remember the person who requested for it via Session Cookies.</p> 
+	</section>
+	<section>
+		<h2>What are Session Cookies?</h2>
+		<p>Session Cookies are small text files given by a server in which it would enable the server to remember the client who requested a request.
+		The idea behind session and cookies is this: (Assuming a client has a login credentials to a certain website) When a client logins in to a website, the server would first ask for a cookie from the user agent when it finds a cookie the server would now establish a session between the the server and the client which would now enable the server to remember all the transactions the client would make. If it doesn't find a cookie it would then create one and give it to the client so in the next transaction that the user would make, the server would know  </p>
+	</section>
+    <section>
+		<h2>How do Session Cookies work?</h2>
+		<p>The session id is sent to the user when his session is created. it is stored in a cookie, that cookie is sent by the browser to the server with each request. the server (PHP) uses that cookie, containing the session_id, to know which file corresponds to that user.</p>
+	</section>
+
+</main>
+</body>
+</html>

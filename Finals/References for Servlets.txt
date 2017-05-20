@@ -1,0 +1,6 @@
+References:
+What is JavaServlet? : The Java EE 5 Tutorial. (2007, September 01). Retrieved May 20, 2017, from http://docs.oracle.com/javaee/5/tutorial/doc/bnafe.html
+What is JavaServlet?: What is Java Servlet? (n.d.). Retrieved May 20, 2017, from http://stackoverflow.com/questions/7213541/what-is-java-servlet
+Servlet API meaning: (n.d.). Retrieved May 20, 2017, from https://tomcat.apache.org/tomcat-5.5-doc/servletapi/
+Servlet.javax Interfaces and classes definitions : (n.d.). Retrieved May 20, 2017, from https://tomcat.apache.org/tomcat-5.5-doc/servletapi/javax/servlet/package-summary.html
+Servlet.javax.http Interfaces and classes definitions: (n.d.). Retrieved May 20, 2017, from https://tomcat.apache.org/tomcat-5.5-doc/servletapi/javax/servlet/package-summary.html

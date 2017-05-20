@@ -1,0 +1,48 @@
+What are the top 10 vulnerabilties of OWASP? but before that, what does OWASP stands for? OWASP stands for Open Web Application Security Project. This organization is non-profit who are dedicated to provide a an equal and practical information about application security.
+Here are the Top 10 vulnerabilities of OWASP:
+1. Injections
+ - These are untrusted data that are sent to your system, internal and external users and the administrator.
+ - to prevent "Injections", you must not use and keep away untrusted data from your commands and queries.
+2. Broken Authentication and Session Management
+ - These are external attackers who are anonymous and wants to get in to your system. Also, they might be co-user that wants to steal other's account.
+ - to prevent "Broken Authentication and Session Management", they need to have a single set of strong authentication and session management controls for the system of an organization.
+3. Cross-Site Scripting(XSS)
+ - These are untrusted data that are sent to your system, internal and external users and the administrator.
+ - to prevent "Cross-Site Scripting(XSS)", you should have a Content Security Policy(XSS). You are also required to separate all unstrusted data from your active browser content.
+4. Insecure Direct Object References
+ - These are type of users in your system that only have partial access to the system.
+ - In order to prevent "Insecure Direct Object References", you should have approaches that will protect each user accessible object. Example are having a check access and use a per user or session indirect object references to prevent attackers from what they want in your system resources.
+5. Security Misconfiguration
+ - These are external attackers and users of that system that want to gain access to your system.
+ - In order to prevent "Security Misconfiguration", you must have a strong application architecture which will go you an effective and secure separation between components.
+6. Sensitive Data Exposure
+ - These are internal and external threats that gain their access to your sensitive data.
+ - In order to prevent "Sensitive Data Exposure", you must always disable autocompletes to all forms which are collecting sensitive data and you must disable caching. Also, you mustn't store sensitive data if it is not necessary.
+7. Missing Function Level Access Control
+ - These are authorized system users that are able to change the URL or parameter to a privileged function. It can also ba an anonymous users who are able to access private functions which are not completely protected.
+ - In order to prevent "Missing Function Level Access Control", the application must a consistent and easy to analyze authorization module .
+8. Cross-Site Request Forgery (CSRF)
+ - These are attackers that forces themselves to send request to your website until it authenticated.
+ - In order to prevent "Cross-Site Request Forgery (CSRF)", you need to have a unique token in a hidden field to every session.
+9. Using Components with Known Vulnerabilities
+ - These are attackers that will find the weak or vulnerable components which can cause a problem.
+ - In order to prevent "Using Components with Known Vulnerabilities", the next version, you must or able to fix all the problems or weak components.
+10. Unvalidated Redirects and Forwards
+ - These are attackers that will trick victims in clicking links to an unvalidated redirect.
+ - In order to prevent "Unvalidated Redirects and Forwards", you should avoid using those redirects and forwards because its not safe and safe use of redirects and forwards.
+
+
+
+
+References:
+- OWASP TOP 10 VULNERABILITIES. (2016, October 04). Retrieved May 20, 2017, from https://www.veracode.com/directory/owasp-top-10
+- Top 10 2013-A1-Injection. (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A1-Injection
+- Top 10 2013-A2-Broken Authentication and Session Management. (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A2-Broken_Authentication_and_Session_Management
+- Top 10 2013-A3-Cross-Site Scripting (XSS). (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A3-Cross-Site_Scripting_(XSS)
+- Top 10 2013-A4-Insecure Direct Object References. (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A4-Insecure_Direct_Object_References
+- Top 10 2013-A5-Security Misconfiguration. (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A5-Security_Misconfiguration
+- Top 10 2013-A6-Sensitive Data Exposure. (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A6-Sensitive_Data_Exposure
+- Top 10 2013-A7-Missing Function Level Access Control. (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A7-Missing_Function_Level_Access_Control
+- Top 10 2013-A8-Cross-Site Request Forgery (CSRF). (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A8-Cross-Site_Request_Forgery_(CSRF)
+- Top 10 2013-A9-Using Components with Known Vulnerabilities. (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A9-Using_Components_with_Known_Vulnerabilities
+- Top 10 2013-A10-Unvalidated Redirects and Forwards. (n.d.). Retrieved May 20, 2017, from https://www.owasp.org/index.php/Top_10_2013-A10-Unvalidated_Redirects_and_Forwards

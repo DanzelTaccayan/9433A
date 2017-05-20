@@ -55,12 +55,163 @@
 	<div class="container pt">
 		<div class="row mt centered">	
 			<div class="col-lg-8 col-lg-offset-2">
-				<p><img class="img-responsive" src="assets/img/portfolio/copy%20(1).png" alt=""></p>
+				<p><img class="img-responsive" src="assets/img/portfolio/html.png" alt=""></p>
 			</div>
 		</div><!-- /row -->
         <div class="row mt">
 			<div class="col-lg-6 col-lg-offset-3 centered">
+	<h2>What is PHP?</h2>
+<p>It is an open source scripting language that is widely used. <abbr title="Hypertext Preprocessor">PHP</abbr> file can contain <abbr title="Hypertext Markup Language">HTML</abbr>, JavaScript, <abbr title="Cascading Style Sheets">CSS</abbr>, and <abbr title="Hypertext Preprocessor">PHP</abbr> code. Scripts are executed on the server and returned to the browser as plain <abbr title="Hypertext Markup Language">HTML</abbr>.</p>
+<p>
+<abbr title="Hypertext Preprocessor">PHP</abbr> can generate dynamic page content, create, open, write,delete and close file on the server. It can add, delete, modify data in your database. It can send and receive cookies and can encrypt data.</p>
+</section>
 
+<section>
+<h2>PHP Tags</h2>
+<p>The opening tag of php is &lt;?php and ending tag is ?&gt; which tells the <abbr title="Hypertext Preprocessor">PHP</abbr> to start and stop  executing the code between them. It allows <abbr title="Hypertext Preprocessor">PHP</abbr> to be embedded in all sort of different document and outside this pair of tags is already ignored by the <abbr title="Hypertext Preprocessor">PHP</abbr>.
+For a pure <abbr title="Hypertext Preprocessor">PHP</abbr> code, it is preferred that closing tags are placed at the end so that there will be no unwanted effects that will buffer while the program is executing.
+</p>
+<img src="assets/img/PHP1.png" alt="Shows the syntax of a PHP code">
+<img src="assets/img/PHP2.png" alt="The Changelog of syntax of PHP">
+</section>
+
+<section>
+<h2>Escaping from HTML</h2>
+	<p>Every code outside the <abbr title="Hypertext Preprocessor">PHP</abbr> tag is ignored which allows PHP to have a mixed content. <abbr title="Hypertext Preprocessor">PHP</abbr> can be embedded to an <abbr title="Hypertext Markup Language">HTML</abbr> file.</p>
+	<img src="PHP3.png" alt="How escaping from HTML works">
+	<p>After the <abbr title="Hypertext Preprocessor">PHP</abbr> interpreter hits the closing tag, it will start outputting the code next to it.</p>
+
+<h3> Advanced escaping using conditions</h3>
+<p><kbd>&lt;?php if ($expression == true): ?&gt;</kbd><br>
+This will show if the expression is true.</p>
+
+<p><kbd>&lt;?php else: ?&gt;</kbd><br>
+  Otherwise this will show.
+</p>
+<p><kbd>&lt;?php endif; ? &gt;</kbd><br>
+<abbr title="Hypertext Preprocessor">PHP</abbr> will skip the block where the condition is not met.
+</p>
+
+<h3>PHP Opening and Closing Tags</h3>
+<ol>
+<li>&lt;?php echo 'if you want to serve PHP code in XHTML or XML documents,use these tags'; ? &gt;</li>
+<li>You can use the short echo tag to &lt;?= 'print this string' ? &gt;.
+    It's always enabled in PHP 5.4.0 and later, and is equivalent to
+    &lt;?php echo 'print this string' ? &gt;.</li>
+<li>&lt;? echo 'this code is within short tags, but will only work '.
+            'if short_open_tag is enabled'; ? &gt;</li>
+<li>&lt;script language="php"&gt;
+        echo 'some editors (like FrontPage) don't
+              like processing instructions within these tags';
+    &lt;/script&gt;<br>
+    This syntax is removed in PHP 7.0.0.
+</li>
+<li>&lt;% echo 'You may optionally use ASP-style tags'; %&gt;<br>
+    Code within these tags &lt;%= $variable; %&gt; is a shortcut for this code &lt;% echo $variable; %&gt;<br>
+    Both of these syntaxes are removed in PHP 7.0.0.
+</li>
+</ol>
+</section>
+
+<section>
+    <h2>Super Global Variables</h2>
+    <p>Can be used or accessed anywhere in the script</p>
+    <p>here are the superglobal variables:</p>
+    <ul>
+        <li>$GLOBALS</li>
+        <li>$_SERVER</li>
+        <li>$_REQUEST</li>
+        <li>$_POST</li>
+        <li>$_GET</li>
+        <li>$_FILES</li>
+        <li>$_ENV</li>
+        <li>$_COOKIE</li>
+        <li>$_SESSION</li>
+    </ul>
+</section>
+
+<section>
+    <h2>PHP Session Functions</h2>
+    <dl>
+        <dt>session_abort</dt>
+        <dd>it will disregard the array changes and finishes the session.</dd>
+
+        <dt>session_cache_expire</dt>
+        <dd>it will return the current cache expire</dd>
+
+        <dt>session_cache_limiter </dt>
+        <dd>it will either get and/or set the current cache limiter</dd>
+
+        <dt>session_commit</dt>
+        <dd>It is the alias of session_write_close</dd>
+        
+        <dt>session_create_id</dt>
+        <dd>it will create a new session id</dd>
+
+        <dt>session_decode </dt>
+        <dd>it will decode the session data from a session encoded string</dd>
+
+        <dt>session_destroy </dt>
+        <dd>it will destroy all data which is registered to a specific session</dd>
+
+        <dt>session_encode</dt>
+        <dd>it will encode the current session data as a session encoded string</dd>
+
+        <dt>session_gc</dt>
+        <dd>it will perform the session data garbage collection</dd>
+
+        <dt>session_get_cookie_params</dt>
+        <dd>it will fetch the session cookie parameters</dd>
+
+        <dt>session_id</dt>
+        <dd>it will either get and/or set the current session module</dd>
+
+        <dt>session_is_registered</dt>
+        <dd>It will investigate whether a global variable is registered in a specific session</dd>
+
+        <dt>session_module_name</dt>
+        <dd>it will either get and/or set the current session module</dd>
+        
+        <dt>session_name</dt>
+        <dd>it will either get and/or set the current session name</dd>
+
+        <dt>session_regenerate_id</dt>
+        <dd>it will update the current session id to a new one.</dd>
+
+        <dt>session_register_shutdown</dt>
+        <dd>session shutdown function</dd>
+
+        <dt>session_register</dt>
+        <dd>it will register 1 or more global variable using the current session you are using.</dd>
+
+        <dt>session_reset</dt>
+        <dd>it will reload session arrays with their original values</dd>
+        
+        <dt>session_save_path</dt>
+        <dd>it will either get and/or set the current session save path</dd>
+
+        <dt>session_set_cookie_params</dt>
+        <dd>it will set the session cookie parameters</dd>
+
+        <dt>session_set_save_handler</dt>
+        <dd>it will sets the use-level session storage functions</dd>
+
+        <dt>session_start</dt>
+        <dd>it may start a new or resume an existing session</dd>
+
+        <dt>session_status</dt>
+        <dd>it will return the current session status</dd>
+
+        <dt>session_unregister</dt>
+        <dd>it will unregister a global variable from the current session</dd>
+        
+        <dt>session_unset</dt>
+        <dd>it will free all session variables</dd>
+
+        <dt>session_write_close</dt>
+        <dd>it will write session data and end session</dd>
+    </dl>
+</section>
 			</div>
 		</div>
 	</div><!-- /container -->

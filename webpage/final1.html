@@ -55,12 +55,86 @@
 	<div class="container pt">
 		<div class="row mt centered">	
 			<div class="col-lg-8 col-lg-offset-2">
-				<p><img class="img-responsive" src="assets/img/portfolio/copy%20(1).png" alt=""></p>
+				<p><img class="img-responsive" src="assets/img/portfolio/browser%20(3).png" alt=""></p>
 			</div>
 		</div><!-- /row -->
         <div class="row mt">
 			<div class="col-lg-6 col-lg-offset-3 centered">
+                <section>
+	<h2>What is a Java Servlet?</h2>
+	<p>
+	A servlet is a Java programming language class that is used to extend the capabilities
+	of servers that host applications accessed by means of a request-response programming model.
+	Although servlets can respond to any type of request, they are commonly used to extend the applications hosted by web servers.
+	</p>
+</section>
 
+<section>
+	<h2>Servlet API</h2>
+	<p>
+	There are two API for servlet namely:<br/>
+	<b>1)Javax.servlet package</b> - Contains a number of classes and interfaces that describe and define the contracts 
+	between a servlet class and the runtime environment provided for an instance of such a class by a conforming servlet container.<br/>
+	<b>2)The javax.servlet.http package</b> - contains a number of classes and interfaces that describe and define
+	the contracts between a servlet class running under the HTTP protocol and the runtime environment provided for 
+	an instance of such a class by a conforming servlet container.<br/>
+	</p>
+
+	<h3>Interfaces of "javax.servlet"</h3>
+	<ul>
+	<li>Servlet - Defines methods that all servlets must implement.</li>
+	<li>ServletRequest - Defines an object to provide client request information to a servlet.</li>
+	<li>ServletResponse - Defines an object to assist a servlet in sending a response to the client.</li>
+	<li>RequestDispatcher - Defines an object that receives requests from the client and sends them to any resource (such as a servlet, HTML file, or JSP file) on the server.</li>
+	<li>ServletConfig - A servlet configuration object used by a servlet container to pass information to a servlet during initialization.</li>
+	<li>ServletContext - Defines a set of methods that a servlet uses to communicate with its servlet container, for example, to get the MIME type of a file, dispatch requests, or write to a log file.</li>
+	<li>Filter - A filter is an object that performs filtering tasks on either the request to a resource (a servlet or static content), or on the response from a resource, or both.</li>
+	<li>FilterConfig - A filter configuration object used by a servlet container to pass information to a filter during initialization.</li>
+	<li>FilterChain - A FilterChain is an object provided by the servlet container to the developer giving a view into the invocation chain of a filtered request for a resource.</li>
+	<li>ServletRequestListener - A ServletRequestListener can be implemented by the developer interested in being notified of requests coming in and out of scope in a web component.</li>
+	<li>ServletRequestAttributeListener - A ServletRequestAttributeListener can be implemented by the developer interested in being notified of request attribute changes.</li>
+	<li>ServletContextListener - Implementations of this interface receive notifications about changes to the servlet context of the web application they are part of.</li>
+	<li>ServletContextAttributeListener - Implementations of this interface receive notifications of changes to the attribute list on the servlet context of a web application.</li>
+	</ul>	
+	
+	<h3>Classes of "javax.servlet"</h3>
+	<ul>
+	<li>GenericServlet - Defines a generic, protocol-independent servlet.</li>
+	<li>ServletInputStream - Provides an input stream for reading binary data from a client request, including an efficient readLine method for reading data one line at a time.</li>
+	<li>ServletOutputStream - Provides an output stream for sending binary data to the client.</li>
+	<li>ServletRequestWrapper - Provides a convenient implementation of the ServletRequest interface that can be subclassed by developers wishing to adapt the request to a Servlet.</li>
+	<li>ServletResponseWrapper - Provides a convenient implementation of the ServletResponse interface that can be subclassed by developers wishing to adapt the response from a Servlet.</li>
+	<li>ServletRequestEvent - Events of this kind indicate lifecycle events for a ServletRequest.</li>
+	<li>ServletContextEvent - This is the event class for notifications about changes to the servlet context of a web application.</li>
+	<li>ServletRequestAttributeEvent - This is the event class for notifications of changes to the attributes of the servlet request in an application.</li>
+	<li>ServletContextAttributeEvent - This is the event class for notifications about changes to the attributes of the servlet context of a web application.</li>
+	<li>ServletException - Defines a general exception a servlet can throw when it encounters difficulty.</li>
+	<li>UnavailableException - Defines an exception that a servlet or filter throws to indicate that it is permanently or temporarily unavailable.</li>
+	</ul>
+	
+	<h3>Interfaces of "javax.servlet.http"</h3>
+	<ul>
+	<li>HttpServletRequest - Extends the ServletRequest interface to provide request information for HTTP servlets.</li>
+	<li>HttpServletResponse - Extends the ServletResponse interface to provide HTTP-specific functionality in sending a response.</li>
+	<li>HttpSession - Provides a way to identify a user across more than one page request or visit to a Web site and to store information about that user.</li>
+	<li>HttpSessionListener - Implementations of this interface are notified of changes to the list of active sessions in a web application.</li>
+	<li>HttpSessionAttributeListener - This listener interface can be implemented in order to get notifications of changes to the attribute lists of sessions within this web application.</li>
+	<li>HttpSessionBindingListener - Causes an object to be notified when it is bound to or unbound from a session.</li>
+	<li>HttpSessionActivationListener - Objects that are bound to a session may listen to container events notifying them that sessions will be passivated and that session will be activated.</li>
+	</ul>
+	
+	<h3>Classes of "javax.servlet.http"</h3>
+	<ul>
+	<li>HttpServlet - Provides an abstract class to be subclassed to create an HTTP servlet suitable for a Web site.</li>
+	<li>Cookie - Creates a cookie, a small amount of information sent by a servlet to a Web browser, saved by the browser, and later sent back to the server.</li>
+	<li>HttpServletRequestWrapper - Provides a convenient implementation of the HttpServletRequest interface that can be subclassed by developers wishing to adapt the request to a Servlet.</li>
+	<li>HttpServletResponseWrapper - Provides a convenient implementation of the HttpServletResponse interface that can be subclassed by developers wishing to adapt the response from a Servlet.</li>
+	<li>HttpSessionEvent - This is the class representing event notifications for changes to sessions within a web application.</li>
+	<li>HttpSessionBindingEvent - Events of this type are either sent to an object that implements HttpSessionBindingListener when it is bound or unbound from a session,
+	or to a HttpSessionAttributeListener that has been configured in the deployment descriptor when any attribute is bound, unbound or replaced in a session.</li>
+	</ul>
+	
+</section>
 			</div>
 		</div>
 	</div><!-- /container -->

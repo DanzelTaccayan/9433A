@@ -2,11 +2,11 @@
 <html lang ='en'>
 <head>
 	<meta charset="UTF-8">
-	<title>What is Node JS</title>
+	<title>JSP: Session Handling </title>
 </head>
 <body>
 <nav></nav>
-<header><h1>Node JS</h1></header>
+<header><h1>JSP: Session Handling</h1></header>
 <main>
 
 	<section>
@@ -29,7 +29,45 @@
 		<p><img src="3.png"></p>
 
 	</section>
-	
+    
+    <section> 
+    <p> In Java, the instance of Session object is javax.servlet.http.HttpSession. During a conversation with the server,session object provides a stateful context for multiple page requests from the same client. Session object will be available  of the JSPs and servlet once the user has connected to the site and until it closes.
+    </p>
+    </section>
+    
+    <section>
+    <div class="table">
+        <tbody>
+        <tr>
+            <td> Accessing the HttpSession</td>
+            <td> //Inside doGet() or doPost()
+HttpSession session = request.getSession();</td>
+            </tr>
+        
+        <tr>
+            <td> Using the session variable in JSP </td>
+            <td> <<%session.setAttribute("number", new Float(42.5));%>> </td>
+            </tr>
+        <tr>
+            <td>  Retrieving information from a session</td>
+            <td> <p> <<td>Number: <%=
+   session.getAttribute("number") %></td>></p>
+            </td>
+            </tr>
+        </tbody>
+        </div></section>
+    
+    <section> 
+    <h2> Session in Java Servlet – HttpSession </h2>
+    <p> 1. <h4> HttpSession getSession</h4></p>
+     <p> 2. <h4> HttpSession getSession(boolean flag)</h4></p>
+     <p> 3. <h4> String getId</h4></p>
+     <p> 4. <h4> Object getAttribute(String name)</h4></p>
+ <p> 5. <h4>long getCreationTime</h4></p>
+ <p> 6. <h4> ServletCOntext getServletContext</h4></p>
+ <p> 7. <h4> Hboolean isNew</h4></p>
+ <p> 8. <h4> void invalidate</h4></p>
+	</section>
 </main>
 
 </body>
